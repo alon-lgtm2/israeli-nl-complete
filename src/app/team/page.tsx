@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import type { Metadata } from 'next';
 import { personas } from '@/lib/data';
+import type { Persona } from '@/types';
 
 export const metadata: Metadata = {
   title: 'צוות הכתבים',
@@ -8,8 +9,9 @@ export const metadata: Metadata = {
 };
 
 export default function TeamPage() {
-  const phase1 = personas.filter((p) => p.phase === 1);
-  const phase2 = personas.filter((p) => p.phase === 2);
+  const phase1News = personas.filter((p) => p.phase === 1 && p.type === 'news');
+  const phase2News = personas.filter((p) => p.phase === 2 && p.type === 'news');
+  const opinionPersonas = personas.filter((p) => p.type === 'opinion');
 
   return (
     <div className="max-w-[1000px] mx-auto px-4 py-8">
@@ -97,20 +99,20 @@ export default function TeamPage() {
         </div>
       </section>
 
-      {/* Phase 1 reporters */}
+      {/* Phase 1 — Active news reporters */}
       <section className="mb-12">
         <div className="flex items-center gap-3 mb-6 pb-3 border-b-3 border-[var(--color-primary)]">
           <h2 className="text-2xl font-extrabold text-[var(--color-primary-dark)]">מערכת החדשות הפעילה</h2>
           <span className="bg-green-100 text-green-800 text-xs font-bold px-2.5 py-1 rounded-full">פעיל</span>
         </div>
         <div className="grid gap-6">
-          {phase1.map((persona) => (
+          {phase1News.map((persona) => (
             <PersonaCard key={persona.id} persona={persona} />
           ))}
         </div>
       </section>
 
-      {/* Phase 2 reporters */}
+      {/* Phase 2 — Coming soon news reporters */}
       <section className="mb-12">
         <div className="flex items-center gap-3 mb-6 pb-3 border-b-3 border-[var(--color-text-muted)]">
           <h2 className="text-2xl font-extrabold text-[var(--color-primary-dark)]">מדורים בפיתוח</h2>
@@ -120,11 +122,30 @@ export default function TeamPage() {
           הפרסונות הבאות נמצאות בשלבי פיתוח ויצטרפו למערכת בהמשך. כל אחת תביא קול ייחודי וכיסוי מתמחה בתחומה.
         </p>
         <div className="grid gap-6">
-          {phase2.map((persona) => (
+          {phase2News.map((persona) => (
             <PersonaCard key={persona.id} persona={persona} comingSoon />
           ))}
         </div>
       </section>
+
+      {/* Opinion columnists */}
+      {opinionPersonas.length > 0 && (
+        <section className="mb-12">
+          <div className="flex items-center gap-3 mb-6 pb-3 border-b-3 border-purple-400">
+            <h2 className="text-2xl font-extrabold text-[var(--color-primary-dark)]">טורי דעה</h2>
+            <span className="bg-purple-100 text-purple-800 text-xs font-bold px-2.5 py-1 rounded-full">דעה</span>
+            <span className="bg-gray-100 text-gray-600 text-xs font-bold px-2.5 py-1 rounded-full">בקרוב</span>
+          </div>
+          <p className="text-[var(--color-text-secondary)] mb-6 leading-relaxed">
+            טורי הדעה מציגים מגוון קולות ופרספקטיבות — כולל כאלו שלא תמיד נוח לשמוע. הם לא מייצגים את עמדת המערכת. כל טור דעה מסומן בבירור ועובר ביקורת עורך.
+          </p>
+          <div className="grid gap-6">
+            {opinionPersonas.map((persona) => (
+              <PersonaCard key={persona.id} persona={persona} comingSoon isOpinion />
+            ))}
+          </div>
+        </section>
+      )}
 
       {/* Principles */}
       <section className="bg-white rounded-xl border border-[var(--color-border-light)] p-6 md:p-8">
@@ -145,7 +166,7 @@ export default function TeamPage() {
           <Principle
             icon={<svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" /><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" /></svg>}
             title="שקיפות מלאה"
-            text="הפרסונות הן קולות עריכה — לא אנשים מזויפים. השמות הם כותרות עריכה בעברית"
+            text="הפרסונות הן קולות עריכה — לא אנשים מזויפים. לכל פרסונה שם אנושי וכותרת עריכה שמבהירה את תפקידה"
           />
           <Principle
             icon={<svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" /></svg>}
@@ -158,35 +179,48 @@ export default function TeamPage() {
   );
 }
 
-function PersonaCard({ persona, comingSoon = false }: { persona: typeof personas[number]; comingSoon?: boolean }) {
+function PersonaCard({ persona, comingSoon = false, isOpinion = false }: { persona: Persona; comingSoon?: boolean; isOpinion?: boolean }) {
   return (
-    <div className={`bg-white rounded-xl border border-[var(--color-border-light)] overflow-hidden card-hover ${comingSoon ? 'opacity-85' : ''}`}>
+    <div className={`bg-white rounded-xl border overflow-hidden card-hover ${comingSoon ? 'opacity-85' : ''} ${isOpinion ? 'border-purple-200' : 'border-[var(--color-border-light)]'}`}>
       <div className="flex flex-col md:flex-row">
         {/* Avatar + name section */}
-        <div className="bg-gradient-to-b from-[var(--color-bg-tertiary)] to-white p-6 md:w-[220px] flex flex-col items-center justify-center text-center shrink-0">
+        <div className={`p-6 md:w-[220px] flex flex-col items-center justify-center text-center shrink-0 ${isOpinion ? 'bg-gradient-to-b from-purple-50 to-white' : 'bg-gradient-to-b from-[var(--color-bg-tertiary)] to-white'}`}>
           <div className="relative mb-3">
             <Image
               src={persona.avatar}
-              alt={persona.hebrewName}
+              alt={persona.humanName || persona.hebrewName}
               width={100}
               height={100}
-              className="rounded-full border-3 border-white shadow-md"
+              className={`rounded-full border-3 shadow-md ${isOpinion ? 'border-purple-200' : 'border-white'}`}
             />
-            {comingSoon && (
+            {comingSoon && !isOpinion && (
               <div className="absolute -bottom-1 -right-1 bg-gray-500 text-white text-[10px] font-bold px-2 py-0.5 rounded-full">
                 בקרוב
               </div>
             )}
           </div>
-          <h3 className="text-xl font-extrabold text-[var(--color-primary-dark)]">{persona.hebrewName}</h3>
-          {persona.role && (
-            <p className="text-sm text-[var(--color-primary-light)] font-medium mt-1">{persona.role}</p>
+          {/* Human name */}
+          {persona.humanName && (
+            <h3 className="text-xl font-extrabold text-[var(--color-primary-dark)]">{persona.humanName}</h3>
           )}
-          <div className="mt-2 inline-flex items-center gap-1 bg-blue-50 text-blue-700 text-[11px] font-bold px-2 py-0.5 rounded-full">
+          {/* Editorial title */}
+          <p className={`text-sm font-semibold mt-0.5 ${isOpinion ? 'text-purple-600' : 'text-[var(--color-primary-light)]'}`}>
+            {persona.editorialTitle || persona.hebrewName}
+          </p>
+          {/* Age */}
+          {persona.age && (
+            <p className="text-xs text-[var(--color-text-muted)] mt-1">בן {persona.age}</p>
+          )}
+          {/* Role */}
+          {persona.role && (
+            <p className="text-xs text-[var(--color-text-secondary)] mt-1">{persona.role}</p>
+          )}
+          {/* Badge */}
+          <div className={`mt-2 inline-flex items-center gap-1 text-[11px] font-bold px-2 py-0.5 rounded-full ${isOpinion ? 'bg-purple-50 text-purple-700' : 'bg-blue-50 text-blue-700'}`}>
             <svg className="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
             </svg>
-            פרסונת AI
+            {isOpinion ? 'טור דעה AI' : 'פרסונת AI'}
           </div>
         </div>
 
@@ -209,6 +243,18 @@ function PersonaCard({ persona, comingSoon = false }: { persona: typeof personas
             <div className="mt-3 flex items-start gap-2 text-sm bg-amber-50 rounded-lg p-3 border border-amber-100">
               <span className="text-amber-600 font-bold shrink-0">סימן היכר:</span>
               <span className="text-amber-800">{persona.signatureHabit}</span>
+            </div>
+          )}
+
+          {persona.editorNote && (
+            <div className="mt-3 flex items-start gap-2 text-sm bg-red-50 rounded-lg p-3 border border-red-200">
+              <svg className="w-4 h-4 text-red-500 shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.964-.833-2.732 0L4.082 16.5c-.77.833.192 2.5 1.732 2.5z" />
+              </svg>
+              <div>
+                <span className="text-red-700 font-bold block mb-0.5">הערת עורך:</span>
+                <span className="text-red-800">{persona.editorNote}</span>
+              </div>
             </div>
           )}
         </div>

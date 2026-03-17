@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <linearGradient id="bg-conscience" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#dc2626"/>
+      <stop offset="100%" stop-color="#7f1d1d"/>
+    </linearGradient>
+  </defs>
+  <!-- Red to dark gradient background circle -->
+  <circle cx="100" cy="100" r="100" fill="url(#bg-conscience)"/>
+  <!-- Head -->
+  <circle cx="100" cy="62" r="24" fill="#ffffff"/>
+  <!-- Short modern hair -->
+  <path d="M76 56 Q78 36 100 33 Q122 36 124 56 L124 50 Q122 34 100 31 Q78 34 76 50 Z" fill="#ffffff"/>
+  <!-- Slight side part -->
+  <path d="M82 42 Q90 38 96 40" fill="none" stroke="#dc2626" stroke-width="1" opacity="0.15"/>
+  <!-- Determined eyes - slightly angular -->
+  <ellipse cx="90" cy="60" rx="3" ry="2.5" fill="#7f1d1d"/>
+  <ellipse cx="110" cy="60" rx="3" ry="2.5" fill="#7f1d1d"/>
+  <!-- Determined eyebrows -->
+  <path d="M83 55 L96 56" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" opacity="0.5"/>
+  <path d="M104 56 L117 55" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" opacity="0.5"/>
+  <!-- Firm mouth -->
+  <line x1="93" y1="73" x2="107" y2="73" stroke="#7f1d1d" stroke-width="2" stroke-linecap="round" opacity="0.3"/>
+  <!-- Strong jaw line hint -->
+  <path d="M80 75 Q100 86 120 75" fill="none" stroke="#ffffff" stroke-width="1" opacity="0.2"/>
+  <!-- Body -->
+  <path d="M55 145 Q55 105 72 95 Q85 88 100 88 Q115 88 128 95 Q145 105 145 145 Q145 168 100 168 Q55 168 55 145 Z" fill="#ffffff"/>
+  <!-- Simple crew neckline -->
+  <path d="M88 88 Q100 94 112 88" fill="none" stroke="#dc2626" stroke-width="1.5" opacity="0.2"/>
+  <!-- Megaphone element bottom left -->
+  <g transform="translate(38, 155) rotate(-15)" opacity="0.35">
+    <!-- Megaphone cone -->
+    <path d="M0 0 L22 -10 L22 10 Z" fill="#ffffff"/>
+    <!-- Megaphone handle/grip -->
+    <rect x="-8" y="-4" width="10" height="8" rx="2" fill="#ffffff"/>
+    <!-- Sound waves -->
+    <path d="M24 -6 Q30 0 24 6" fill="none" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round"/>
+    <path d="M28 -10 Q36 0 28 10" fill="none" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" opacity="0.6"/>
+  </g>
+</svg>

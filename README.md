@@ -29,38 +29,45 @@ Inspired by [Times of Israel](https://www.timesofisrael.com/) and [Zman.co.il](h
 
 ```
 israelis-nl-complete/
+├── api/                             # Article Management API
+│   ├── index.js                     # Express server + route handlers
+│   ├── github.js                    # GitHub API helper (read/write articles.json)
+│   ├── validate.js                  # Article schema validation
+│   └── package.json                 # API dependencies (express, dotenv)
 ├── content/
-│   ├── articles/articles.json      # 18 sample articles in Hebrew
-│   ├── personas/personas.json      # 8 AI editorial personas
-│   └── municipalities/             # 25 Dutch city definitions
+│   ├── articles/articles.json       # 18 sample articles in Hebrew
+│   ├── personas/personas.json       # 12 AI editorial personas
+│   └── municipalities/              # 25 Dutch city definitions
+├── docs/
+│   └── api-spec.md                  # Full API specification
 ├── public/images/
-│   ├── articles/                   # Article placeholder SVGs
-│   └── personas/                   # Persona avatar SVGs
+│   ├── articles/                    # Article placeholder SVGs
+│   └── personas/                    # Persona avatar SVGs
 ├── src/
 │   ├── app/
-│   │   ├── layout.tsx              # Root layout (RTL, fonts)
-│   │   ├── page.tsx                # Homepage
-│   │   ├── globals.css             # Theme variables, styles
-│   │   ├── about/page.tsx          # About page
-│   │   ├── team/page.tsx           # Team/reporters page
-│   │   ├── article/[slug]/page.tsx # Article detail page
-│   │   ├── category/[id]/page.tsx  # Category listing page
-│   │   └── city/[id]/page.tsx      # City/municipality page
+│   │   ├── layout.tsx               # Root layout (RTL, fonts)
+│   │   ├── page.tsx                 # Homepage
+│   │   ├── globals.css              # Theme variables, styles
+│   │   ├── about/page.tsx           # About page
+│   │   ├── team/page.tsx            # Team/reporters page
+│   │   ├── article/[slug]/page.tsx  # Article detail page
+│   │   ├── category/[id]/page.tsx   # Category listing page
+│   │   └── city/[id]/page.tsx       # City/municipality page
 │   ├── components/
-│   │   ├── Header.tsx              # Sticky header with masthead + nav
-│   │   ├── Footer.tsx              # Site footer
-│   │   ├── ArticleCard.tsx         # Card component (large/medium/small)
-│   │   ├── CategorySection.tsx     # Homepage category block
-│   │   ├── Sidebar.tsx             # Desktop sidebar (most read, city links)
-│   │   ├── Newsletter.tsx          # Newsletter signup component
-│   │   └── ShareButtons.tsx        # WhatsApp, Facebook, X share
+│   │   ├── Header.tsx               # Sticky header with masthead + nav
+│   │   ├── Footer.tsx               # Site footer
+│   │   ├── ArticleCard.tsx          # Card component (large/medium/small)
+│   │   ├── CategorySection.tsx      # Homepage category block
+│   │   ├── Sidebar.tsx              # Desktop sidebar (most read, city links)
+│   │   ├── Newsletter.tsx           # Newsletter signup component
+│   │   └── ShareButtons.tsx         # WhatsApp, Facebook, X share
 │   ├── lib/
-│   │   ├── data.ts                 # Data access functions
-│   │   └── categories.ts           # Category definitions with colors
-│   └── types/index.ts              # TypeScript interfaces
-├── .node-version                   # Node.js version for Render
-├── render.yaml                     # Render deployment config
-└── next.config.ts                  # Next.js config (static export)
+│   │   ├── data.ts                  # Data access functions
+│   │   └── categories.ts            # Category definitions with colors
+│   └── types/index.ts               # TypeScript interfaces
+├── .node-version                    # Node.js version for Render
+├── render.yaml                      # Render deployment config (site + API)
+└── next.config.ts                   # Next.js config (static export)
 ```
 
 ## Content
@@ -121,13 +128,42 @@ npm run build
 # Output is in the `out/` directory
 ```
 
+## Article Management API
+
+A Node.js/Express API that manages articles by reading/writing `articles.json` via the GitHub API. Commits trigger automatic redeployment on Render.
+
+**Endpoints:**
+
+| Method | Endpoint | Description |
+|---|---|---|
+| `GET` | `/api/articles` | List all articles |
+| `GET` | `/api/articles/:slug` | Get single article |
+| `POST` | `/api/articles` | Create article |
+| `PUT` | `/api/articles/:slug` | Update article (partial) |
+| `DELETE` | `/api/articles/:slug` | Delete article |
+
+All requests require `X-API-Key` header. See `docs/api-spec.md` for full specification.
+
+**Local development:**
+```bash
+cd api
+cp .env.example .env   # Fill in your values
+npm install
+npm run dev
+```
+
 ## Deployment (Render)
 
-The site is configured for Render static site deployment:
+Two services configured in `render.yaml`:
 
+**1. Static Site (israelis.nl)**
 - **Build command:** `npm run build`
 - **Publish directory:** `out`
-- **Node.js version:** 20.11.0 (set via `.node-version` and `NODE_VERSION` env var)
+
+**2. Article API**
+- **Root directory:** `api/`
+- **Start command:** `node index.js`
+- **Environment variables:** `API_KEY`, `GITHUB_TOKEN`, `GITHUB_REPO`
 
 See `render.yaml` for full configuration.
 

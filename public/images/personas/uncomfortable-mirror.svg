@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <linearGradient id="bg-mirror" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#374151"/>
+      <stop offset="100%" stop-color="#6b7280"/>
+    </linearGradient>
+  </defs>
+  <!-- Charcoal to silver gradient background circle -->
+  <circle cx="100" cy="100" r="100" fill="url(#bg-mirror)"/>
+  <!-- Head -->
+  <circle cx="100" cy="62" r="24" fill="#ffffff"/>
+  <!-- Short hair -->
+  <path d="M76 55 Q78 38 100 35 Q122 38 124 55 L124 48 Q120 36 100 33 Q80 36 76 48 Z" fill="#ffffff"/>
+  <!-- Glasses -->
+  <rect x="80" y="56" width="16" height="12" rx="3" fill="none" stroke="#4b5563" stroke-width="2.5"/>
+  <rect x="104" y="56" width="16" height="12" rx="3" fill="none" stroke="#4b5563" stroke-width="2.5"/>
+  <line x1="96" y1="61" x2="104" y2="61" stroke="#4b5563" stroke-width="2"/>
+  <line x1="80" y1="60" x2="76" y2="58" stroke="#4b5563" stroke-width="2" stroke-linecap="round"/>
+  <line x1="120" y1="60" x2="124" y2="58" stroke="#4b5563" stroke-width="2" stroke-linecap="round"/>
+  <!-- Lens shine -->
+  <ellipse cx="86" cy="59" rx="3" ry="2" fill="#ffffff" opacity="0.3"/>
+  <ellipse cx="110" cy="59" rx="3" ry="2" fill="#ffffff" opacity="0.3"/>
+  <!-- Eyes behind glasses -->
+  <circle cx="88" cy="62" r="2" fill="#4b5563"/>
+  <circle cx="112" cy="62" r="2" fill="#4b5563"/>
+  <!-- Trimmed beard -->
+  <path d="M82 72 Q82 68 85 68 L88 70" fill="none" stroke="#ffffff" stroke-width="1.5" opacity="0.5"/>
+  <path d="M118 72 Q118 68 115 68 L112 70" fill="none" stroke="#ffffff" stroke-width="1.5" opacity="0.5"/>
+  <path d="M85 74 Q92 82 100 83 Q108 82 115 74" fill="none" stroke="#ffffff" stroke-width="2" opacity="0.4"/>
+  <path d="M88 72 Q100 80 112 72" fill="none" stroke="#ffffff" stroke-width="1.5" opacity="0.3"/>
+  <!-- Mouth area in beard -->
+  <path d="M94 74 Q100 77 106 74" fill="none" stroke="#4b5563" stroke-width="1.5" stroke-linecap="round" opacity="0.3"/>
+  <!-- Body - academic jacket -->
+  <path d="M55 145 Q55 105 72 95 Q85 88 100 88 Q115 88 128 95 Q145 105 145 145 Q145 168 100 168 Q55 168 55 145 Z" fill="#ffffff"/>
+  <!-- Jacket lapels -->
+  <path d="M92 88 L86 110 L100 105" fill="none" stroke="#4b5563" stroke-width="1.5" opacity="0.25"/>
+  <path d="M108 88 L114 110 L100 105" fill="none" stroke="#4b5563" stroke-width="1.5" opacity="0.25"/>
+  <!-- Subtle mirror motif - oval mirror frame bottom right -->
+  <g transform="translate(158, 158)" opacity="0.3">
+    <ellipse cx="0" cy="0" rx="14" ry="18" fill="none" stroke="#ffffff" stroke-width="2.5"/>
+    <ellipse cx="0" cy="0" rx="10" ry="14" fill="#ffffff" opacity="0.15"/>
+    <!-- Mirror handle -->
+    <line x1="0" y1="18" x2="0" y2="28" stroke="#ffffff" stroke-width="3" stroke-linecap="round"/>
+    <!-- Reflection glint -->
+    <path d="M-4 -6 Q-2 -10 2 -8" fill="none" stroke="#ffffff" stroke-width="1.5" opacity="0.5"/>
+  </g>
+</svg>

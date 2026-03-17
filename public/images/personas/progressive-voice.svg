@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <!-- Green background circle -->
+  <circle cx="100" cy="100" r="100" fill="#16a34a"/>
+  <!-- Head -->
+  <circle cx="100" cy="65" r="24" fill="#ffffff"/>
+  <!-- Natural curly hair -->
+  <circle cx="82" cy="48" r="8" fill="#ffffff"/>
+  <circle cx="92" cy="42" r="9" fill="#ffffff"/>
+  <circle cx="104" cy="40" r="9" fill="#ffffff"/>
+  <circle cx="115" cy="43" r="8" fill="#ffffff"/>
+  <circle cx="122" cy="52" r="7" fill="#ffffff"/>
+  <circle cx="78" cy="56" r="7" fill="#ffffff"/>
+  <circle cx="76" cy="65" r="5" fill="#ffffff"/>
+  <circle cx="124" cy="62" r="5" fill="#ffffff"/>
+  <circle cx="98" cy="38" r="7" fill="#ffffff"/>
+  <circle cx="110" cy="38" r="7" fill="#ffffff"/>
+  <!-- Eyes -->
+  <circle cx="91" cy="65" r="2.5" fill="#16a34a"/>
+  <circle cx="109" cy="65" r="2.5" fill="#16a34a"/>
+  <!-- Gentle smile -->
+  <path d="M93 75 Q100 80 107 75" fill="none" stroke="#16a34a" stroke-width="2" stroke-linecap="round" opacity="0.4"/>
+  <!-- Shoulders / top of body -->
+  <path d="M58 145 Q58 108 75 97 Q87 90 100 90 Q113 90 125 97 Q142 108 142 145 Q142 168 100 168 Q58 168 58 145 Z" fill="#ffffff"/>
+  <!-- Neckline - simple crew neck -->
+  <path d="M88 90 Q100 96 112 90" fill="none" stroke="#16a34a" stroke-width="1.5" opacity="0.2"/>
+  <!-- Leaf motif on left -->
+  <g transform="translate(38, 148) rotate(-20)" opacity="0.4">
+    <path d="M0 0 Q8 -18 0 -35 Q-8 -18 0 0 Z" fill="#ffffff" stroke="#ffffff" stroke-width="1"/>
+    <line x1="0" y1="0" x2="0" y2="-35" stroke="#16a34a" stroke-width="1" opacity="0.3"/>
+  </g>
+  <!-- Leaf motif on right -->
+  <g transform="translate(162, 152) rotate(20)" opacity="0.4">
+    <path d="M0 0 Q8 -18 0 -35 Q-8 -18 0 0 Z" fill="#ffffff" stroke="#ffffff" stroke-width="1"/>
+    <line x1="0" y1="0" x2="0" y2="-35" stroke="#16a34a" stroke-width="1" opacity="0.3"/>
+  </g>
+  <!-- Small leaf accent near shoulder -->
+  <g transform="translate(52, 130) rotate(-35)" opacity="0.3">
+    <path d="M0 0 Q5 -12 0 -22 Q-5 -12 0 0 Z" fill="#ffffff"/>
+  </g>
+  <g transform="translate(148, 134) rotate(35)" opacity="0.3">
+    <path d="M0 0 Q5 -12 0 -22 Q-5 -12 0 0 Z" fill="#ffffff"/>
+  </g>
+</svg>
