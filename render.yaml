@@ -1,7 +1,9 @@
 services:
   - type: web
-    name: israelis-nl
+    name: israeli-nl-complete
     runtime: node
+    region: frankfurt
+    plan: free
     buildCommand: npm install && npm run build
     startCommand: node .next/standalone/server.js
     envVars:
@@ -9,3 +11,5 @@ services:
         value: 10000
       - key: HOSTNAME
         value: 0.0.0.0
+      - key: NODE_VERSION
+        value: 20.11.0
