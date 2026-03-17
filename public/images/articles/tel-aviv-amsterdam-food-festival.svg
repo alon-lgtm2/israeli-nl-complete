@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#e65100"/>
+      <stop offset="100%" style="stop-color:#bf360c"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#bg)"/>
+  <!-- Fork and knife -->
+  <g transform="translate(400,175)">
+    <!-- Plate -->
+    <circle cx="0" cy="0" r="55" fill="#ff7043" stroke="#ffccbc" stroke-width="3"/>
+    <circle cx="0" cy="0" r="42" fill="none" stroke="#ffccbc" stroke-width="1.5"/>
+    <!-- Fork (left) -->
+    <g transform="translate(-75,0) rotate(-15)">
+      <line x1="0" y1="-50" x2="0" y2="50" stroke="#ffccbc" stroke-width="3"/>
+      <line x1="-8" y1="-50" x2="-8" y2="-25" stroke="#ffccbc" stroke-width="2"/>
+      <line x1="8" y1="-50" x2="8" y2="-25" stroke="#ffccbc" stroke-width="2"/>
+      <line x1="0" y1="-50" x2="0" y2="-25" stroke="#ffccbc" stroke-width="2"/>
+    </g>
+    <!-- Knife (right) -->
+    <g transform="translate(75,0) rotate(15)">
+      <line x1="0" y1="-50" x2="0" y2="50" stroke="#ffccbc" stroke-width="3"/>
+      <path d="M0,-50 Q10,-40 10,-25 L0,-20" fill="#ffccbc" opacity="0.5"/>
+    </g>
+    <!-- Falafel balls on plate -->
+    <circle cx="-12" cy="-10" r="10" fill="#8d6e63"/>
+    <circle cx="12" cy="-10" r="10" fill="#8d6e63"/>
+    <circle cx="0" cy="8" r="10" fill="#8d6e63"/>
+    <!-- Sesame dots -->
+    <circle cx="-14" cy="-12" r="1.5" fill="#ffccbc"/>
+    <circle cx="-10" cy="-8" r="1.5" fill="#ffccbc"/>
+    <circle cx="10" cy="-12" r="1.5" fill="#ffccbc"/>
+    <circle cx="14" cy="-8" r="1.5" fill="#ffccbc"/>
+    <circle cx="-2" cy="6" r="1.5" fill="#ffccbc"/>
+    <circle cx="2" cy="10" r="1.5" fill="#ffccbc"/>
+  </g>
+  <!-- Steam -->
+  <g opacity="0.4">
+    <path d="M385,110 Q380,95 385,80" fill="none" stroke="#ffccbc" stroke-width="2"/>
+    <path d="M400,105 Q395,90 400,75" fill="none" stroke="#ffccbc" stroke-width="2"/>
+    <path d="M415,110 Q410,95 415,80" fill="none" stroke="#ffccbc" stroke-width="2"/>
+  </g>
+  <text x="400" y="310" text-anchor="middle" font-family="Arial, sans-serif" font-size="26" font-weight="bold" fill="#ffccbc">פסטיבל אוכל תל אביב-אמסטרדם</text>
+  <text x="400" y="345" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#ff8a65">Tel Aviv - Amsterdam Food Festival</text>
+</svg>

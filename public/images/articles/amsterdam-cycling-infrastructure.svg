@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#388e3c"/>
+      <stop offset="100%" style="stop-color:#1b5e20"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#bg)"/>
+  <!-- Bicycle icon -->
+  <g transform="translate(400,185)" stroke="#a5d6a7" stroke-width="3" fill="none">
+    <!-- Back wheel -->
+    <circle cx="-40" cy="20" r="35"/>
+    <!-- Front wheel -->
+    <circle cx="45" cy="20" r="35"/>
+    <!-- Frame -->
+    <line x1="-40" y1="20" x2="-10" y2="-25"/>
+    <line x1="-10" y1="-25" x2="20" y2="-25"/>
+    <line x1="20" y1="-25" x2="45" y2="20"/>
+    <line x1="-40" y1="20" x2="20" y2="-25"/>
+    <!-- Seat -->
+    <line x1="-10" y1="-25" x2="-10" y2="-35"/>
+    <line x1="-20" y1="-35" x2="0" y2="-35"/>
+    <!-- Handlebars -->
+    <line x1="20" y1="-25" x2="20" y2="-38"/>
+    <line x1="14" y1="-38" x2="26" y2="-38"/>
+    <!-- Pedal -->
+    <circle cx="-5" cy="20" r="4" fill="#a5d6a7"/>
+  </g>
+  <!-- Road/path lines -->
+  <g opacity="0.3">
+    <line x1="100" y1="260" x2="700" y2="260" stroke="#c8e6c9" stroke-width="2" stroke-dasharray="15,10"/>
+  </g>
+  <text x="400" y="315" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#c8e6c9">תשתיות אופניים באמסטרדם</text>
+  <text x="400" y="350" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#a5d6a7">Amsterdam Cycling Infrastructure</text>
+</svg>

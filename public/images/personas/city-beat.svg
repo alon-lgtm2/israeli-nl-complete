@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <!-- Background circle -->
+  <circle cx="100" cy="100" r="100" fill="#E6F2EE"/>
+
+  <!-- Neck -->
+  <rect x="82" y="132" width="36" height="18" rx="4" fill="#C8956C"/>
+
+  <!-- Casual-professional top (henley/polo style) -->
+  <path d="M48 195 Q50 158 72 148 L84 144 L100 155 L116 144 L128 148 Q150 158 152 195 Z" fill="#2A8B6E"/>
+  <!-- Collar -->
+  <path d="M88 146 Q94 153 100 155 Q106 153 112 146" fill="none" stroke="#1E6B53" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Button placket -->
+  <line x1="100" y1="155" x2="100" y2="185" stroke="#1E6B53" stroke-width="1.5"/>
+  <circle cx="100" cy="163" r="2" fill="#1E6B53"/>
+  <circle cx="100" cy="174" r="2" fill="#1E6B53"/>
+
+  <!-- Head -->
+  <ellipse cx="100" cy="93" rx="42" ry="47" fill="#C8956C"/>
+
+  <!-- Hair - short, neat, slightly textured -->
+  <path d="M58 83 Q58 46 100 42 Q142 46 142 83 Q140 65 128 56 Q115 47 100 47 Q85 47 72 56 Q60 65 58 83 Z" fill="#2C1810"/>
+  <!-- Short cropped sides -->
+  <path d="M58 83 Q56 78 58 70 Q57 80 60 88 Z" fill="#2C1810"/>
+  <path d="M142 83 Q144 78 142 70 Q143 80 140 88 Z" fill="#2C1810"/>
+  <!-- Textured top -->
+  <path d="M68 65 Q75 55 85 52 Q80 58 76 63 Z" fill="#3D2515" opacity="0.6"/>
+  <path d="M132 65 Q125 55 115 52 Q120 58 124 63 Z" fill="#3D2515" opacity="0.6"/>
+
+  <!-- Ears -->
+  <ellipse cx="58" cy="96" rx="8" ry="12" fill="#B8855E"/>
+  <ellipse cx="142" cy="96" rx="8" ry="12" fill="#B8855E"/>
+  <!-- Inner ear -->
+  <ellipse cx="59" cy="96" rx="4" ry="7" fill="#C8956C" opacity="0.5"/>
+  <ellipse cx="141" cy="96" rx="4" ry="7" fill="#C8956C" opacity="0.5"/>
+
+  <!-- Eyes - attentive, detail-oriented -->
+  <ellipse cx="82" cy="92" rx="5" ry="5.5" fill="#FFFFFF"/>
+  <ellipse cx="118" cy="92" rx="5" ry="5.5" fill="#FFFFFF"/>
+  <circle cx="83" cy="92" r="3" fill="#3B6B4A"/>
+  <circle cx="119" cy="92" r="3" fill="#3B6B4A"/>
+  <circle cx="84" cy="91" r="1.2" fill="#FFFFFF"/>
+  <circle cx="120" cy="91" r="1.2" fill="#FFFFFF"/>
+
+  <!-- Eyebrows - steady, grounded -->
+  <path d="M72 83 Q78 79 90 82" fill="none" stroke="#2C1810" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M110 82 Q122 79 128 83" fill="none" stroke="#2C1810" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Nose -->
+  <path d="M100 96 Q97 108 94 110 Q97 113 100 113 Q103 113 106 110 Q103 108 100 96" fill="#B8855E"/>
+
+  <!-- Light stubble dots -->
+  <g fill="#8B6B50" opacity="0.25">
+    <circle cx="85" cy="126" r="0.8"/>
+    <circle cx="89" cy="128" r="0.8"/>
+    <circle cx="93" cy="129" r="0.8"/>
+    <circle cx="97" cy="130" r="0.8"/>
+    <circle cx="103" cy="130" r="0.8"/>
+    <circle cx="107" cy="129" r="0.8"/>
+    <circle cx="111" cy="128" r="0.8"/>
+    <circle cx="115" cy="126" r="0.8"/>
+    <circle cx="87" cy="130" r="0.7"/>
+    <circle cx="91" cy="131" r="0.7"/>
+    <circle cx="95" cy="132" r="0.7"/>
+    <circle cx="100" cy="132" r="0.7"/>
+    <circle cx="105" cy="132" r="0.7"/>
+    <circle cx="109" cy="131" r="0.7"/>
+    <circle cx="113" cy="130" r="0.7"/>
+  </g>
+
+  <!-- Mouth - approachable, slight smile -->
+  <path d="M88 120 Q94 125 100 125 Q106 125 112 120" fill="none" stroke="#8B5E3C" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Subtle chin definition -->
+  <path d="M85 135 Q100 142 115 135" fill="none" stroke="#B8855E" stroke-width="1" opacity="0.3"/>
+</svg>

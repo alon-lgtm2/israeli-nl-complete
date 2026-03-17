@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2e7d32"/>
+      <stop offset="100%" style="stop-color:#1b5e20"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#bg)"/>
+  <!-- Open book icon -->
+  <g transform="translate(400,180)">
+    <!-- Left page -->
+    <path d="M-5,-45 Q-50,-45 -65,-35 L-65,35 Q-50,25 -5,25 Z" fill="#a5d6a7" stroke="#c8e6c9" stroke-width="2"/>
+    <!-- Right page -->
+    <path d="M5,-45 Q50,-45 65,-35 L65,35 Q50,25 5,25 Z" fill="#a5d6a7" stroke="#c8e6c9" stroke-width="2"/>
+    <!-- Spine -->
+    <line x1="0" y1="-45" x2="0" y2="25" stroke="#c8e6c9" stroke-width="2"/>
+    <!-- Hebrew text lines on left page -->
+    <line x1="-55" y1="-25" x2="-15" y2="-25" stroke="#2e7d32" stroke-width="2" opacity="0.5"/>
+    <line x1="-55" y1="-12" x2="-20" y2="-12" stroke="#2e7d32" stroke-width="2" opacity="0.5"/>
+    <line x1="-55" y1="1" x2="-15" y2="1" stroke="#2e7d32" stroke-width="2" opacity="0.5"/>
+    <!-- Hebrew letters -->
+    <text text-anchor="middle" x="-35" y="-5" font-size="14" fill="#1b5e20" font-family="Arial" opacity="0.6">&#x5D0;&#x5D1;&#x5D2;</text>
+    <!-- Lines on right page -->
+    <line x1="15" y1="-25" x2="55" y2="-25" stroke="#2e7d32" stroke-width="2" opacity="0.5"/>
+    <line x1="20" y1="-12" x2="55" y2="-12" stroke="#2e7d32" stroke-width="2" opacity="0.5"/>
+    <line x1="15" y1="1" x2="55" y2="1" stroke="#2e7d32" stroke-width="2" opacity="0.5"/>
+  </g>
+  <!-- Pencil -->
+  <g transform="translate(470,145) rotate(30)">
+    <rect x="0" y="0" width="8" height="40" fill="#ffeb3b" stroke="#f9a825" stroke-width="1"/>
+    <polygon points="0,40 8,40 4,50" fill="#795548"/>
+  </g>
+  <text x="400" y="310" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#c8e6c9">בית ספר עברי באמסטרדם</text>
+  <text x="400" y="345" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#a5d6a7">Hebrew School Amsterdam</text>
+</svg>

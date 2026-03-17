@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00897b"/>
+      <stop offset="100%" style="stop-color:#004d40"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#bg)"/>
+  <!-- Building/apartment blocks -->
+  <g transform="translate(400,175)">
+    <!-- Tall building -->
+    <rect x="-55" y="-70" width="40" height="130" fill="#4db6ac" stroke="#80cbc4" stroke-width="2"/>
+    <!-- Windows tall building -->
+    <rect x="-48" y="-60" width="10" height="10" rx="1" fill="#004d40" opacity="0.6"/>
+    <rect x="-32" y="-60" width="10" height="10" rx="1" fill="#004d40" opacity="0.6"/>
+    <rect x="-48" y="-42" width="10" height="10" rx="1" fill="#004d40" opacity="0.6"/>
+    <rect x="-32" y="-42" width="10" height="10" rx="1" fill="#004d40" opacity="0.6"/>
+    <rect x="-48" y="-24" width="10" height="10" rx="1" fill="#004d40" opacity="0.6"/>
+    <rect x="-32" y="-24" width="10" height="10" rx="1" fill="#004d40" opacity="0.6"/>
+    <rect x="-48" y="-6" width="10" height="10" rx="1" fill="#004d40" opacity="0.6"/>
+    <rect x="-32" y="-6" width="10" height="10" rx="1" fill="#004d40" opacity="0.6"/>
+    <!-- Medium building -->
+    <rect x="-10" y="-40" width="40" height="100" fill="#26a69a" stroke="#80cbc4" stroke-width="2"/>
+    <rect x="-3" y="-30" width="10" height="10" rx="1" fill="#004d40" opacity="0.6"/>
+    <rect x="13" y="-30" width="10" height="10" rx="1" fill="#004d40" opacity="0.6"/>
+    <rect x="-3" y="-12" width="10" height="10" rx="1" fill="#004d40" opacity="0.6"/>
+    <rect x="13" y="-12" width="10" height="10" rx="1" fill="#004d40" opacity="0.6"/>
+    <rect x="-3" y="6" width="10" height="10" rx="1" fill="#004d40" opacity="0.6"/>
+    <rect x="13" y="6" width="10" height="10" rx="1" fill="#004d40" opacity="0.6"/>
+    <!-- Short building -->
+    <rect x="35" y="-15" width="35" height="75" fill="#4db6ac" stroke="#80cbc4" stroke-width="2"/>
+    <rect x="42" y="-5" width="8" height="8" rx="1" fill="#004d40" opacity="0.6"/>
+    <rect x="55" y="-5" width="8" height="8" rx="1" fill="#004d40" opacity="0.6"/>
+    <rect x="42" y="11" width="8" height="8" rx="1" fill="#004d40" opacity="0.6"/>
+    <rect x="55" y="11" width="8" height="8" rx="1" fill="#004d40" opacity="0.6"/>
+  </g>
+  <!-- Checkmark / affordable indicator -->
+  <g transform="translate(490,120)">
+    <circle cx="0" cy="0" r="16" fill="#a5d6a7"/>
+    <polyline points="-7,0 -2,6 8,-5" stroke="#1b5e20" stroke-width="3" fill="none"/>
+  </g>
+  <text x="400" y="315" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#b2dfdb">דיור בר-השגה באלמרה</text>
+  <text x="400" y="350" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#80cbc4">Almere Affordable Housing</text>
+</svg>
