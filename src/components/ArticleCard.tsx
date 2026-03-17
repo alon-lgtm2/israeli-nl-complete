@@ -16,10 +16,10 @@ export default function ArticleCard({ article, size = 'medium' }: ArticleCardPro
   if (size === 'large') {
     return (
       <Link href={`/article/${article.slug}`} className="group block">
-        <article className="relative rounded-xl overflow-hidden bg-gray-900 aspect-[16/9] md:aspect-[21/9]">
-          <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent z-10" />
+        <article className="relative rounded-lg overflow-hidden bg-gray-900 aspect-[16/9] md:aspect-[21/9]">
+          <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent z-10" />
           <div
-            className="absolute inset-0 bg-cover bg-center group-hover:scale-105 transition-transform duration-500"
+            className="absolute inset-0 bg-cover bg-center group-hover:scale-105 transition-transform duration-700"
             style={{ backgroundImage: `url(${article.imageUrl})` }}
             role="img"
             aria-label={article.imageAlt}
@@ -27,25 +27,18 @@ export default function ArticleCard({ article, size = 'medium' }: ArticleCardPro
           <div className="absolute bottom-0 right-0 left-0 p-4 md:p-8 z-20">
             {category && (
               <span className="category-tag mb-3" style={{ backgroundColor: category.color }}>
-                {category.icon} {category.label}
+                {category.label}
               </span>
             )}
-            <h2 className="text-xl md:text-3xl font-black text-white mb-2 leading-tight">
+            <h2 className="text-2xl md:text-4xl font-black text-white mb-2 leading-tight">
               {article.title}
             </h2>
-            <p className="text-gray-200 text-sm md:text-base line-clamp-2 mb-3 max-w-2xl">
+            <p className="text-gray-200 text-sm md:text-lg line-clamp-2 mb-3 max-w-3xl">
               {article.summary}
             </p>
-            <div className="flex items-center gap-2 text-gray-300 text-xs">
-              <Image
-                src={article.personaAvatar}
-                alt={article.persona}
-                width={24}
-                height={24}
-                className="rounded-full"
-              />
-              <span>{article.persona}</span>
-              <span className="mx-1">|</span>
+            <div className="flex items-center gap-2 text-gray-300 text-xs md:text-sm">
+              <span className="font-bold">{article.persona}</span>
+              <span>|</span>
               <span>{formatHebrewDate(article.date)}</span>
             </div>
           </div>
@@ -87,7 +80,7 @@ export default function ArticleCard({ article, size = 'medium' }: ArticleCardPro
   // Medium (default)
   return (
     <Link href={`/article/${article.slug}`} className="group block">
-      <article className="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-shadow border border-[var(--color-border-light)]">
+      <article className="bg-white rounded-lg overflow-hidden card-hover border border-[var(--color-border-light)]">
         <div className="relative aspect-[16/10] overflow-hidden">
           <div
             className="absolute inset-0 bg-cover bg-center group-hover:scale-105 transition-transform duration-500"
@@ -97,32 +90,25 @@ export default function ArticleCard({ article, size = 'medium' }: ArticleCardPro
           />
           {category && (
             <span className="absolute top-3 right-3 category-tag" style={{ backgroundColor: category.color }}>
-              {category.icon} {category.label}
+              {category.label}
             </span>
           )}
         </div>
         <div className="p-4">
-          <h3 className="font-bold text-base leading-snug mb-2 group-hover:text-[var(--color-primary-light)] transition-colors line-clamp-2">
+          <h3 className="font-extrabold text-base leading-snug mb-2 group-hover:text-[var(--color-primary)] transition-colors line-clamp-2">
             {article.title}
           </h3>
           <p className="text-sm text-[var(--color-text-secondary)] line-clamp-2 mb-3">
             {article.summary}
           </p>
           <div className="flex items-center gap-2 text-[var(--color-text-muted)] text-xs">
-            <Image
-              src={article.personaAvatar}
-              alt={article.persona}
-              width={20}
-              height={20}
-              className="rounded-full"
-            />
-            <span>{article.persona}</span>
-            <span>·</span>
+            <span className="font-semibold text-[var(--color-primary)]">{article.persona}</span>
+            <span>|</span>
             <span>{formatHebrewDate(article.date)}</span>
             {article.municipality && (
               <>
-                <span>·</span>
-                <span className="text-[var(--color-primary-light)]">📍 {municipality?.nameHe || article.municipality}</span>
+                <span>|</span>
+                <span>{municipality?.nameHe || article.municipality}</span>
               </>
             )}
           </div>

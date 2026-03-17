@@ -10,10 +10,11 @@ export const metadata: Metadata = {
 export default function AboutPage() {
   return (
     <div className="max-w-[800px] mx-auto px-4 py-8">
-      <h1 className="text-3xl font-black mb-6">אודות israelis.nl</h1>
+      <div className="bg-white rounded-lg p-6 md:p-8 border border-[var(--color-border-light)]">
+      <h1 className="text-3xl font-black mb-6 text-[var(--color-primary-dark)]">אודות ISRAELIS.NL</h1>
 
       <section className="mb-10">
-        <h2 className="text-2xl font-bold mb-4 text-[var(--color-primary)]">מה זה israelis.nl?</h2>
+        <h2 className="text-2xl font-extrabold mb-4 text-[var(--color-primary)] pb-2 border-b-3 border-[var(--color-primary)]">מה זה israelis.nl?</h2>
         <div className="space-y-4 text-lg leading-relaxed">
           <p>
             <strong>israelis.nl</strong> הוא פורטל החדשות בעברית לקהילה הישראלית בהולנד. אנחנו מביאים את החדשות ההולנדיות — פוליטיקה, דיור, קהילה, עירייה ועוד — בעברית, בשפה שלכם ובפרספקטיבה שלכם.
@@ -28,7 +29,7 @@ export default function AboutPage() {
       </section>
 
       <section className="mb-10" id="editorial">
-        <h2 className="text-2xl font-bold mb-4 text-[var(--color-primary)]">איך התוכן נוצר?</h2>
+        <h2 className="text-2xl font-extrabold mb-4 text-[var(--color-primary)]">איך התוכן נוצר?</h2>
         <div className="space-y-4 text-lg leading-relaxed">
           <p>
             israelis.nl משתמש בטכנולוגיית בינה מלאכותית (AI) מתקדמת ליצירת תוכן עיתונאי. כל כתבה נכתבת על ידי אחד מהפרסונות העיתונאיות שלנו — דמויות AI ייחודיות, כל אחת עם התמחות ונקודת מבט משלה.
@@ -40,7 +41,7 @@ export default function AboutPage() {
       </section>
 
       <section className="mb-10">
-        <h2 className="text-2xl font-bold mb-4 text-[var(--color-primary)]">הצוות העיתונאי שלנו</h2>
+        <h2 className="text-2xl font-extrabold mb-4 text-[var(--color-primary)]">הצוות העיתונאי שלנו</h2>
         <div className="space-y-6">
           {personas.map((persona) => (
             <div key={persona.id} className="flex gap-4 bg-[var(--color-bg-secondary)] rounded-xl p-5 border border-[var(--color-border-light)]">
@@ -66,7 +67,7 @@ export default function AboutPage() {
       </section>
 
       <section className="mb-10" id="transparency">
-        <h2 className="text-2xl font-bold mb-4 text-[var(--color-primary)]">שקיפות AI</h2>
+        <h2 className="text-2xl font-extrabold mb-4 text-[var(--color-primary)]">שקיפות AI</h2>
         <div className="space-y-4 text-lg leading-relaxed">
           <p>
             אנחנו מאמינים בשקיפות מלאה לגבי השימוש שלנו בבינה מלאכותית:
@@ -82,7 +83,7 @@ export default function AboutPage() {
       </section>
 
       <section className="mb-10">
-        <h2 className="text-2xl font-bold mb-4 text-[var(--color-primary)]">האקוסיסטם של israelis.nl</h2>
+        <h2 className="text-2xl font-extrabold mb-4 text-[var(--color-primary)]">האקוסיסטם של israelis.nl</h2>
         <div className="space-y-4 text-lg leading-relaxed">
           <p>
             israelis.nl הוא חלק ממערכת רחבה יותר של שירותים לקהילה הישראלית בהולנד. הפורטל הוא המרכז החדשותי, ובהמשך נרחיב את השירותים לכלול לוח אירועים, מדריכים מעשיים ועוד.
@@ -90,17 +91,45 @@ export default function AboutPage() {
         </div>
       </section>
 
+      <section className="mb-10">
+        <h2 className="text-2xl font-extrabold mb-4 text-[var(--color-primary)]">מדורים</h2>
+        <div className="space-y-4 text-lg leading-relaxed">
+          <p>
+            האתר מכסה מגוון רחב של נושאים הרלוונטיים לחיים בהולנד:
+          </p>
+          <ul className="space-y-2 list-disc list-inside">
+            <li><strong>פוליטיקה:</strong> חדשות פוליטיות מהפרלמנט ההולנדי והממשלה</li>
+            <li><strong>דיור ונדל&quot;ן:</strong> מחירי דירות, פרויקטים חדשים ומדיניות דיור</li>
+            <li><strong>הולנד-ישראל:</strong> יחסים דיפלומטיים, אירועים משותפים ושיתופי פעולה</li>
+            <li><strong>קהילה:</strong> אירועים קהילתיים, חגים ופעילויות</li>
+            <li><strong>ספורט:</strong> ליגת הכדורגל ההולנדית, ספורטאים ישראלים באירופה ואירועי ספורט קהילתיים</li>
+            <li><strong>תרבות ופנאי:</strong> תערוכות, פסטיבלים, מוזיקה ואירועים תרבותיים</li>
+            <li><strong>מוניציפלי:</strong> חדשות עירוניות מאמסטרדם, אמסטלפין, האג ועוד</li>
+          </ul>
+        </div>
+      </section>
+
+      <section className="mb-10">
+        <h2 className="text-2xl font-extrabold mb-4 text-[var(--color-primary)]">ניוזלטר</h2>
+        <div className="space-y-4 text-lg leading-relaxed">
+          <p>
+            הירשמו לניוזלטר השבועי שלנו וקבלו סיכום של החדשות החשובות ביותר ישירות לתיבת המייל. הניוזלטר נשלח פעם בשבוע ומכיל את הכתבות המרכזיות, אירועים קרובים ומידע שימושי לחיים בהולנד.
+          </p>
+        </div>
+      </section>
+
       <section id="contact">
-        <h2 className="text-2xl font-bold mb-4 text-[var(--color-primary)]">צור קשר</h2>
-        <div className="bg-[var(--color-bg-secondary)] rounded-xl p-6 border border-[var(--color-border-light)]">
+        <h2 className="text-2xl font-extrabold mb-4 text-[var(--color-primary)]">צור קשר</h2>
+        <div className="bg-[var(--color-bg-secondary)] rounded-lg p-6 border border-[var(--color-border-light)]">
           <p className="text-lg mb-4">
             יש לכם שאלה, הערה או טיפ לכתבה? נשמח לשמוע!
           </p>
           <p className="text-[var(--color-text-secondary)]">
-            📧 info@israelis.nl
+            info@israelis.nl
           </p>
         </div>
       </section>
+      </div>{/* end white card */}
     </div>
   );
 }

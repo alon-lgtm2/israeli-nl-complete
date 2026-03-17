@@ -53,17 +53,18 @@ export default async function ArticlePage({ params }: PageProps) {
 
   return (
     <article className="max-w-[800px] mx-auto px-4 py-6">
+      <div className="bg-white rounded-lg p-6 md:p-8 border border-[var(--color-border-light)]">
       {/* Category Tag */}
       {category && (
         <Link href={`/category/${category.id}`}>
           <span className="category-tag mb-4 inline-flex" style={{ backgroundColor: category.color }}>
-            {category.icon} {category.label}
+            {category.label}
           </span>
         </Link>
       )}
 
       {/* Headline */}
-      <h1 className="text-2xl md:text-4xl font-black leading-tight mb-4 mt-3">
+      <h1 className="text-2xl md:text-4xl font-black leading-tight mb-4 mt-3 text-[var(--color-primary-dark)]">
         {article.title}
       </h1>
 
@@ -73,7 +74,7 @@ export default async function ArticlePage({ params }: PageProps) {
       </p>
 
       {/* Meta line */}
-      <div className="flex flex-wrap items-center gap-3 mb-4 pb-4 border-b border-[var(--color-border)]">
+      <div className="flex flex-wrap items-center gap-3 mb-4 pb-4 border-b-2 border-[var(--color-primary)]">
         <div className="flex items-center gap-2">
           <Image
             src={article.personaAvatar}
@@ -83,16 +84,15 @@ export default async function ArticlePage({ params }: PageProps) {
             className="rounded-full"
           />
           <div>
-            <span className="font-bold text-sm">{article.persona}</span>
+            <span className="font-bold text-sm text-[var(--color-primary)]">{article.persona}</span>
             <div className="text-xs text-[var(--color-text-muted)]">
-              {formatHebrewDate(article.date)} · {readingTime} דקות קריאה
+              {formatHebrewDate(article.date)} | {readingTime} דקות קריאה
             </div>
           </div>
         </div>
 
-        {/* AI Disclosure Badge */}
         <span className="text-xs bg-[var(--color-bg-tertiary)] text-[var(--color-text-muted)] px-2.5 py-1 rounded-full border border-[var(--color-border)]">
-          🤖 נוצר באמצעות AI | בפיקוח עורך
+          AI | בפיקוח עורך
         </span>
       </div>
 
@@ -147,15 +147,16 @@ export default async function ArticlePage({ params }: PageProps) {
       )}
 
       {/* Share */}
-      <div className="border-t border-[var(--color-border)] pt-4 mb-8">
+      <div className="border-t border-[var(--color-border)] pt-4 mb-4">
         <ShareButtons title={article.title} url={articleUrl} />
       </div>
+      </div>{/* end white card */}
 
       {/* Related Articles */}
       {related.length > 0 && (
-        <section className="border-t border-[var(--color-border)] pt-8">
-          <h2 className="text-xl font-bold mb-4">כתבות נוספות</h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+        <section className="mt-8">
+          <h2 className="text-xl font-extrabold mb-4 pb-2 border-b-3 border-[var(--color-primary)]">כתבות נוספות</h2>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
             {related.map((a) => (
               <ArticleCard key={a.slug} article={a} size="medium" />
             ))}

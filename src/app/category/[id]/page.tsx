@@ -32,12 +32,11 @@ export default async function CategoryPage({ params }: PageProps) {
 
   return (
     <div className="max-w-[1280px] mx-auto px-4 py-6">
-      <div className="mb-8">
+      <div className="mb-8 pb-3 border-b-3" style={{ borderColor: category.color }}>
         <h1 className="text-3xl font-black flex items-center gap-3">
           <span className="text-4xl">{category.icon}</span>
           <span>{category.label}</span>
         </h1>
-        <div className="h-1 w-20 mt-2 rounded" style={{ backgroundColor: category.color }} />
       </div>
 
       {articles.length === 0 ? (

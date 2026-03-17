@@ -33,7 +33,7 @@ export default function RootLayout({
           rel="stylesheet"
         />
       </head>
-      <body className="antialiased bg-[var(--color-bg)]">
+      <body className="antialiased bg-[var(--color-bg)] min-h-screen">
         <a href="#main-content" className="sr-only focus:not-sr-only focus:absolute focus:top-0 focus:right-0 focus:bg-[var(--color-primary)] focus:text-white focus:p-3 focus:z-[100]">
           דלג לתוכן הראשי
         </a>
