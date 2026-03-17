@@ -47,6 +47,56 @@ export default function TeamPage() {
         </div>
       </div>
 
+      {/* Editor section */}
+      <section className="mb-12">
+        <div className="flex items-center gap-3 mb-6 pb-3 border-b-3 border-[var(--color-primary)]">
+          <h2 className="text-2xl font-extrabold text-[var(--color-primary-dark)]">העורך</h2>
+          <span className="bg-emerald-100 text-emerald-800 text-xs font-bold px-2.5 py-1 rounded-full">אנושי</span>
+        </div>
+        <div className="bg-white rounded-xl border border-[var(--color-border-light)] overflow-hidden card-hover">
+          <div className="flex flex-col md:flex-row">
+            <div className="bg-gradient-to-b from-[var(--color-primary-dark)] to-[var(--color-primary)] p-6 md:w-[220px] flex flex-col items-center justify-center text-center shrink-0">
+              <div className="mb-3">
+                <Image
+                  src="/images/personas/editor.svg"
+                  alt="העורך הראשי"
+                  width={100}
+                  height={100}
+                  className="rounded-full border-3 border-white/30 shadow-md"
+                />
+              </div>
+              <h3 className="text-xl font-extrabold text-white">העורך הראשי</h3>
+              <p className="text-sm text-white/70 font-medium mt-1">עורך ומפקח תוכן</p>
+              <div className="mt-2 inline-flex items-center gap-1 bg-emerald-500/20 text-emerald-200 text-[11px] font-bold px-2 py-0.5 rounded-full">
+                <svg className="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
+                </svg>
+                אנושי
+              </div>
+            </div>
+            <div className="p-6 flex-1">
+              <p className="text-[var(--color-text)] leading-relaxed mb-4">
+                העורך הראשי הוא האדם שמאחורי israelis.nl. הוא אחראי על פיקוח, עריכה ואישור כל התוכן שמתפרסם באתר. כל כתבה שנוצרת על ידי פרסונות ה-AI עוברת ביקורת אנושית לפני פרסום — בדיקת דיוק עובדתי, טון, רגישויות תרבותיות והתאמה לקהל הישראלי בהולנד.
+              </p>
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 text-sm">
+                <div className="bg-[var(--color-bg-secondary)] rounded-lg p-3">
+                  <span className="font-bold text-[var(--color-primary-dark)] block mb-1">תחומי אחריות</span>
+                  <span className="text-[var(--color-text-secondary)]">פיקוח על תוכן AI, עריכה, בקרת איכות, אישור פרסום, מדיניות עריכה</span>
+                </div>
+                <div className="bg-[var(--color-bg-secondary)] rounded-lg p-3">
+                  <span className="font-bold text-[var(--color-primary-dark)] block mb-1">תפקיד מרכזי</span>
+                  <span className="text-[var(--color-text-secondary)]">מבטיח שכל תוכן עומד בסטנדרטים של דיוק, הוגנות ושקיפות</span>
+                </div>
+              </div>
+              <div className="mt-3 flex items-start gap-2 text-sm bg-emerald-50 rounded-lg p-3 border border-emerald-100">
+                <span className="text-emerald-700 font-bold shrink-0">חשוב:</span>
+                <span className="text-emerald-800">נושאים רגישים — אנטישמיות, יחסי הולנד-ישראל, מחלוקות קהילתיות — תמיד דורשים אישור ישיר של העורך לפני פרסום</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Phase 1 reporters */}
       <section className="mb-12">
         <div className="flex items-center gap-3 mb-6 pb-3 border-b-3 border-[var(--color-primary)]">
