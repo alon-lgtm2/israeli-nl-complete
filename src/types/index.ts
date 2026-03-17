@@ -52,10 +52,15 @@ export interface Persona {
   id: string;
   name: string;
   hebrewName: string;
+  role?: string;
   focus: string;
   voice: string;
   bio: string;
   avatar: string;
+  phase?: number;
+  categories?: string[];
+  signatureHabit?: string;
+  avatarColors?: string;
 }
 
 export interface Municipality {

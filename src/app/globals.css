@@ -19,6 +19,8 @@
   --color-border: #d1d5db;
   --color-border-light: #e5e7eb;
   --font-hebrew: 'Heebo', sans-serif;
+  --font-logo: 'Secular One', sans-serif;
+  --color-dot: #FF6B35;
 }
 
 html {

@@ -18,6 +18,8 @@ export default function Header() {
             <span className="hidden sm:inline">אמסטרדם 12°C</span>
           </div>
           <div className="flex items-center gap-3">
+            <Link href="/team" className="hover:text-white transition-colors">צוות הכתבים</Link>
+            <span>|</span>
             <Link href="/about" className="hover:text-white transition-colors">אודות</Link>
             <span>|</span>
             <Link href="/about#contact" className="hover:text-white transition-colors">צור קשר</Link>
@@ -28,9 +30,10 @@ export default function Header() {
       {/* Masthead - Times of Israel inspired */}
       <div className="bg-gradient-to-b from-[var(--color-primary-dark)] to-[var(--color-primary)] text-white">
         <div className="max-w-[1280px] mx-auto px-4 py-4 flex items-center justify-between">
-          <Link href="/" className="flex items-baseline gap-0">
-            <span className="text-4xl md:text-5xl font-black tracking-tight">ISRAELIS</span>
-            <span className="text-4xl md:text-5xl font-black tracking-tight text-[var(--color-accent)]">.NL</span>
+          <Link href="/" className="flex items-baseline gap-0" dir="ltr" style={{ fontFamily: 'var(--font-logo)' }}>
+            <span className="text-4xl md:text-5xl font-bold tracking-tight">israelis</span>
+            <span className="text-4xl md:text-5xl font-bold tracking-tight text-[var(--color-dot)]">.</span>
+            <span className="text-4xl md:text-5xl font-bold tracking-tight">nl</span>
           </Link>
 
           <div className="hidden md:flex items-center gap-3">

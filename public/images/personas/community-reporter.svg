@@ -1,63 +1,27 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
-  <!-- Background circle -->
-  <circle cx="100" cy="100" r="100" fill="#FFF3E6"/>
-
-  <!-- Neck -->
-  <rect x="84" y="130" width="32" height="18" rx="4" fill="#D4A574"/>
-
-  <!-- Top / Blouse -->
-  <path d="M45 195 Q48 155 70 146 L84 142 Q92 150 100 152 Q108 150 116 142 L130 146 Q152 155 155 195 Z" fill="#E87D2F"/>
-  <!-- Neckline -->
-  <path d="M84 142 Q92 155 100 158 Q108 155 116 142" fill="#D4A574"/>
-  <!-- Blouse detail -->
-  <path d="M88 155 Q94 162 100 163 Q106 162 112 155" fill="none" stroke="#D06A20" stroke-width="1.5"/>
-
-  <!-- Head -->
-  <ellipse cx="100" cy="92" rx="40" ry="46" fill="#D4A574"/>
-
-  <!-- Hair - flowing, warm brown -->
-  <path d="M60 82 Q58 45 100 40 Q142 45 140 82 Q138 60 125 52 Q110 44 100 44 Q90 44 75 52 Q62 60 60 82 Z" fill="#5C3317"/>
-  <!-- Hair sides - longer flowing hair -->
-  <path d="M60 82 Q55 75 54 85 Q52 100 50 120 Q48 135 55 140 Q58 130 60 115 Q61 100 60 82 Z" fill="#5C3317"/>
-  <path d="M140 82 Q145 75 146 85 Q148 100 150 120 Q152 135 145 140 Q142 130 140 115 Q139 100 140 82 Z" fill="#5C3317"/>
-  <!-- Hair fringe / bangs -->
-  <path d="M65 72 Q70 62 80 65 Q78 55 90 55 Q95 48 105 52 Q110 48 118 55 Q125 55 128 62 Q135 65 138 75 Q132 68 125 66 Q118 62 110 65 Q105 58 95 58 Q88 60 82 65 Q75 62 68 68 Z" fill="#5C3317"/>
-
-  <!-- Ears (partially hidden by hair) -->
-  <ellipse cx="61" cy="95" rx="6" ry="10" fill="#C69A6B"/>
-  <ellipse cx="139" cy="95" rx="6" ry="10" fill="#C69A6B"/>
-
-  <!-- Small earrings -->
-  <circle cx="61" cy="107" r="3" fill="#F5A623"/>
-  <circle cx="139" cy="107" r="3" fill="#F5A623"/>
-
-  <!-- Eyes - warm and friendly -->
-  <ellipse cx="82" cy="90" rx="6" ry="6.5" fill="#FFFFFF"/>
-  <ellipse cx="118" cy="90" rx="6" ry="6.5" fill="#FFFFFF"/>
-  <circle cx="83" cy="90" r="3.5" fill="#5C3317"/>
-  <circle cx="119" cy="90" r="3.5" fill="#5C3317"/>
-  <circle cx="84" cy="89" r="1.2" fill="#FFFFFF"/>
-  <circle cx="120" cy="89" r="1.2" fill="#FFFFFF"/>
-
-  <!-- Eyelashes -->
-  <path d="M75 86 Q78 83 82 84" fill="none" stroke="#3D2B1F" stroke-width="1.5" stroke-linecap="round"/>
-  <path d="M89 84 Q92 83 94 86" fill="none" stroke="#3D2B1F" stroke-width="1.5" stroke-linecap="round"/>
-  <path d="M106 86 Q108 83 112 84" fill="none" stroke="#3D2B1F" stroke-width="1.5" stroke-linecap="round"/>
-  <path d="M124 84 Q126 83 128 86" fill="none" stroke="#3D2B1F" stroke-width="1.5" stroke-linecap="round"/>
-
-  <!-- Eyebrows - friendly arched -->
-  <path d="M72 80 Q78 75 90 78" fill="none" stroke="#4A2810" stroke-width="2" stroke-linecap="round"/>
-  <path d="M110 78 Q122 75 128 80" fill="none" stroke="#4A2810" stroke-width="2" stroke-linecap="round"/>
-
-  <!-- Nose -->
-  <path d="M100 94 Q97 105 95 107 Q98 109 100 109 Q102 109 105 107 Q103 105 100 94" fill="#C69A6B"/>
-
-  <!-- Warm smile -->
-  <path d="M85 118 Q92 126 100 127 Q108 126 115 118" fill="#FFFFFF" stroke="#8B5E3C" stroke-width="2" stroke-linecap="round"/>
-  <!-- Upper lip line -->
-  <path d="M85 118 Q92 116 100 118 Q108 116 115 118" fill="none" stroke="#8B5E3C" stroke-width="1"/>
-
-  <!-- Blush / rosy cheeks -->
-  <ellipse cx="72" cy="108" rx="8" ry="5" fill="#E8967A" opacity="0.35"/>
-  <ellipse cx="128" cy="108" rx="8" ry="5" fill="#E8967A" opacity="0.35"/>
+  <!-- Warm orange to teal gradient background circle -->
+  <defs>
+    <linearGradient id="communityGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#e8882f"/>
+      <stop offset="100%" stop-color="#2a9d8f"/>
+    </linearGradient>
+  </defs>
+  <circle cx="100" cy="100" r="100" fill="url(#communityGrad)"/>
+  <!-- Center person (head + body) -->
+  <circle cx="100" cy="72" r="14" fill="#ffffff"/>
+  <path d="M78 105 Q78 88 100 88 Q122 88 122 105 L122 112 L78 112 Z" fill="#ffffff"/>
+  <!-- Left person -->
+  <circle cx="58" cy="82" r="12" fill="#ffffff" opacity="0.85"/>
+  <path d="M40 112 Q40 98 58 98 Q76 98 76 112 L76 118 L40 118 Z" fill="#ffffff" opacity="0.85"/>
+  <!-- Right person -->
+  <circle cx="142" cy="82" r="12" fill="#ffffff" opacity="0.85"/>
+  <path d="M124 112 Q124 98 142 98 Q160 98 160 112 L160 118 L124 118 Z" fill="#ffffff" opacity="0.85"/>
+  <!-- Connection lines -->
+  <line x1="72" y1="92" x2="86" y2="85" stroke="#ffffff" stroke-width="2.5" opacity="0.6"/>
+  <line x1="128" y1="92" x2="114" y2="85" stroke="#ffffff" stroke-width="2.5" opacity="0.6"/>
+  <!-- Small connection dots -->
+  <circle cx="79" cy="88" r="2" fill="#ffffff" opacity="0.6"/>
+  <circle cx="121" cy="88" r="2" fill="#ffffff" opacity="0.6"/>
+  <!-- Heart/community symbol below -->
+  <path d="M92 128 Q92 122 96 122 Q100 122 100 127 Q100 122 104 122 Q108 122 108 128 Q108 134 100 140 Q92 134 92 128 Z" fill="#ffffff" opacity="0.7"/>
 </svg>

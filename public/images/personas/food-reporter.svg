@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <!-- Warm terracotta background circle -->
+  <circle cx="100" cy="100" r="100" fill="#c4704b"/>
+  <!-- Plate -->
+  <ellipse cx="100" cy="110" rx="48" ry="18" fill="none" stroke="#ffffff" stroke-width="3"/>
+  <!-- Inner plate ring -->
+  <ellipse cx="100" cy="110" rx="34" ry="13" fill="none" stroke="#ffffff" stroke-width="1.5" opacity="0.5"/>
+  <!-- Plate top rim highlight -->
+  <path d="M55 105 Q75 92 100 92 Q125 92 145 105" fill="none" stroke="#ffffff" stroke-width="2" opacity="0.3"/>
+  <!-- Fork (left side) -->
+  <g transform="translate(52, 55) rotate(8)">
+    <!-- Handle -->
+    <rect x="0" y="30" width="5" height="50" rx="2" fill="#ffffff"/>
+    <!-- Tines -->
+    <rect x="-2" y="5" width="3" height="28" rx="1" fill="#ffffff"/>
+    <rect x="2" y="2" width="3" height="31" rx="1" fill="#ffffff"/>
+    <rect x="6" y="5" width="3" height="28" rx="1" fill="#ffffff"/>
+    <!-- Tine connector -->
+    <rect x="-2" y="28" width="11" height="5" rx="1" fill="#ffffff"/>
+  </g>
+  <!-- Knife (right side) -->
+  <g transform="translate(130, 55) rotate(-8)">
+    <!-- Handle -->
+    <rect x="0" y="30" width="6" height="50" rx="2" fill="#ffffff"/>
+    <!-- Blade -->
+    <path d="M0 5 Q-1 0 3 0 Q12 2 10 15 Q8 25 6 30 L0 30 Z" fill="#ffffff"/>
+  </g>
+  <!-- Steam wisps above plate -->
+  <path d="M85 80 Q83 70 87 62" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" opacity="0.5"/>
+  <path d="M100 76 Q98 66 102 58" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" opacity="0.6"/>
+  <path d="M115 80 Q113 70 117 62" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" opacity="0.5"/>
+</svg>

@@ -17,9 +17,10 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* About */}
           <div className="md:col-span-1">
-            <div className="mb-4">
-              <span className="text-3xl font-black">ISRAELIS</span>
-              <span className="text-3xl font-black text-[var(--color-accent)]">.NL</span>
+            <div className="mb-4" dir="ltr" style={{ fontFamily: 'var(--font-logo)', display: 'inline-block' }}>
+              <span className="text-3xl font-bold">israelis</span>
+              <span className="text-3xl font-bold text-[var(--color-dot)]">.</span>
+              <span className="text-3xl font-bold">nl</span>
             </div>
             <p className="text-sm text-gray-400 leading-relaxed">
               פורטל החדשות בעברית לקהילה הישראלית בהולנד. חדשות מקומיות, עדכונים קהילתיים ומידע שימושי — הכל בעברית, הכל על הולנד.
@@ -58,6 +59,7 @@ export default function Footer() {
           <div>
             <h3 className="font-bold text-lg mb-3">קישורים</h3>
             <ul className="space-y-1.5">
+              <li><Link href="/team" className="text-sm text-gray-300 hover:text-white transition-colors">צוות הכתבים</Link></li>
               <li><Link href="/about" className="text-sm text-gray-300 hover:text-white transition-colors">אודות</Link></li>
               <li><Link href="/about#contact" className="text-sm text-gray-300 hover:text-white transition-colors">צור קשר</Link></li>
               <li><Link href="/about#editorial" className="text-sm text-gray-300 hover:text-white transition-colors">מדיניות עריכה</Link></li>
