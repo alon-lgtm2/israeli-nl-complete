@@ -1,15 +1,13 @@
 services:
   - type: web
     name: israeli-nl-complete
-    runtime: node
-    region: frankfurt
-    plan: free
+    env: static
     buildCommand: npm install && npm run build
-    startCommand: node .next/standalone/server.js
+    staticPublishPath: out
     envVars:
-      - key: PORT
-        value: 10000
-      - key: HOSTNAME
-        value: 0.0.0.0
       - key: NODE_VERSION
         value: 20.11.0
+    routes:
+      - type: rewrite
+        source: /*
+        destination: /index.html
