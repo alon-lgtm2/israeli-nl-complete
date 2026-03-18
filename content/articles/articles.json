@@ -648,26 +648,5 @@
     "isBreaking": false,
     "isFeatured": false,
     "aiDisclosure": "כתבה זו נוצרה באמצעות בינה מלאכותית בפיקוח עורך אנושי"
-  },
-  {
-    "title": "test",
-    "slug": "test-youth-reject",
-    "summary": "s",
-    "body": "b",
-    "category": "youth",
-    "date": "2026-03-18T10:00:00Z",
-    "tags": [
-      "t"
-    ],
-    "sources": [
-      {
-        "name": "n",
-        "url": "u"
-      }
-    ],
-    "aiDisclosure": "ai",
-    "publishingMode": "automated",
-    "isBreaking": false,
-    "isFeatured": false
   }
 ]
