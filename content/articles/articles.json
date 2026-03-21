@@ -961,5 +961,58 @@
     "publishingMode": "automated",
     "isBreaking": false,
     "isFeatured": false
+  },
+  {
+    "title": "עימות חריף בהולנד: ראש הממשלה דורש ממנהיגת הימין הקיצוני לגנות אנטישמיות במפלגתה",
+    "slug": "jetten-fvd-antisemitism-clash",
+    "summary": "ראש ממשלת הולנד, רוב יטן, קרא פומבית למנהיגת מפלגת \"פורום לדמוקרטיה\" (FVD), להתרחק מגילויי אנטישמיות בשורותיה. המנהיגה, לידביי דה פוס, הגיבה בזעם וכינתה את הקריאה \"רפלקס אנטי-דמוקרטי\".",
+    "body": "ראש ממשלת הולנד, רוב יטן, קרא ביום שישי האחרון באופן חסר תקדים למנהיגת מפלגת הימין הקיצוני 'פורום לדמוקרטיה' (FVD), לידביי דה פוס, לפעול נגד גילויי אנטישמיות במפלגתה {{ref:0}}. הקריאה הנחרצת נאמרה במהלך מסיבת העיתונאים השבועית של יטן, וזאת על רקע העלייה במקרי האנטישמיות במדינה {{ref:12}}.\n\nהקריאה של יטן מגיעה לאחר תחקירים עיתונאיים שפורסמו לאחרונה וחשפו כי מספר מועמדים של FVD בבחירות המקומיות קשורים לארגונים ניאו-נאציים וימניים קיצוניים {{ref:6}}. בין היתר, הוזכר מועמד שהתמודד בעבר מטעם מפלגה ניאו-נאצית (NVU) ופעיל אחר שכינה את הטרוריסטים אנדרס ברייוויק וברנטון טרנט \"צמד אלוהי\" {{ref:7}}. \"הגיע הזמן לקבוע סטנדרט\", אמר יטן {{ref:10}}.\n\nמנהיגת המפלגה, דה פוס, הגיבה בהפתעה רבה וטענה כי מדובר ב\"רפלקס אנטי-דמוקרטי\" וניסיון לעשות דמוניזציה למפלגתה {{ref:1}}. ברשתות החברתיות היא כתבה בתגובה: \"אני מבקשת מראש הממשלה לפתור את הבעיות הגדולות בהולנד... רד לעבודה\" {{ref:11}}.\n\nהעימות הפומבי מתרחש על רקע תחושות קשות בקהילה היהודית בהולנד בעקבות התקפות שאירעו לאחרונה על בית כנסת ברוטרדם ובית ספר יהודי באמסטרדם {{ref:13}}. קריאתו של יטן הגיעה ימים ספורים לאחר שנפגש עם נציגי הקהילה היהודית כדי לדון בעלייה באנטישמיות {{ref:1}}.",
+    "category": "netherlands-israel",
+    "date": "2026-03-21T10:26:14.413085+00:00",
+    "tags": [
+      "רוב יטן",
+      "אנטישמיות",
+      "פורום לדמוקרטיה",
+      "פוליטיקה הולנדית",
+      "הקהילה היהודית"
+    ],
+    "sources": [
+      {
+        "name": "nieuws.nl",
+        "url": "https://nieuws.nl/algemeen/jetten-roept-de-vos-op-zich-in-te-zetten-tegen-antisemitisme-fvd"
+      },
+      {
+        "name": "omroepbrabant.nl",
+        "url": "https://www.omroepbrabant.nl/nieuws/3ded2810-30f8-3bc8-89fa-ec730d45506e/premier-jetten-vraagt-de-vos-om-afstand-te-nemen-van-antisemitisme-bij-fvd"
+      },
+      {
+        "name": "chrisaalberts.nl",
+        "url": "https://chrisaalberts.nl/2026/02/09/de-komst-van-extreemrechtse-fvd-kandidaten-hoeft-niet-te-verbazen/"
+      },
+      {
+        "name": "fok.nl",
+        "url": "https://frontpage.fok.nl/nieuws/890107/1/1/50/jetten-haalt-hard-uit-naar-fvd-trek-een-duidelijke-grens-tegen-antisemitisme.html"
+      },
+      {
+        "name": "headliner.nl",
+        "url": "https://www.headliner.nl/item/jetten-haalt-hard-uit-naar-fvd-trek-een-duidelijke-grens-tegen-antisemitisme-fokzine-437052"
+      },
+      {
+        "name": "nieuwrechts.nl",
+        "url": "https://nieuwrechts.nl/109854-jetten-beschuldigt-fvd-van-antisemitisme-tijdens-wekelijkse-premiersconferentie"
+      },
+      {
+        "name": "cvandaag.nl",
+        "url": "https://cvandaag.nl/109386-opperrabbijn-openhartig-over-groeiend-antisemitisme-en-hypocrisie-in-de-samenleving"
+      },
+      {
+        "name": "cidi.nl",
+        "url": "https://www.cidi.nl/aanslagen-raken-joodse-gemeenschap-diep/"
+      }
+    ],
+    "aiDisclosure": "כתבה זו נוצרה באמצעות בינה מלאכותית בפיקוח עורך אנושי",
+    "publishingMode": "automated",
+    "isBreaking": false,
+    "isFeatured": false
   }
 ]
