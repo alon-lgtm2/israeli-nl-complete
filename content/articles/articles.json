@@ -1071,5 +1071,58 @@
     "publishingMode": "automated",
     "isBreaking": false,
     "isFeatured": false
+  },
+  {
+    "title": "המסטדה: שני נערים נעצרו סמוך למוסד יהודי; נבדק חשד לחומרי נפץ",
+    "slug": "teens-arrested-heemstede-jewish-institution",
+    "summary": "שני נערים מאמסטרדם נעצרו בהמסטדה סמוך למוסד יהודי לאחר שהתנהגותם עוררה חשד. המעצר מגיע על רקע שורת פיגועים נגד יעדים יהודיים בהולנד, ובסמוך למקום נמצאו חומרים החשודים כחומרי נפץ.",
+    "body": "שני נערים בני 14 ו-17 מאמסטרדם נעצרו בלילה שבין חמישי לשישי בעיירה המסטדה (Heemstede), לאחר שעוררו את חשדה של המשטרה שקיימה סיורים מוגברים באזור. {{ref:0}} {{ref:2}} המעצר בוצע סמוך לשעה 01:15 לפנות בוקר, לא רחוק ממוסד יהודי מקומי. {{ref:3}} בסביבת מקום המעצר אותרו חפצים שעל פי החשד מכילים חומר נפץ. {{ref:4}}\n\nהמעצר מגיע על רקע מתיחות שיא בקהילה היהודית בהולנד, לאחר סדרת פיצוצים שאירעו לאחרונה נגד יעדים יהודיים ברוטרדם ובאמסטרדם, וכן בבלגיה. {{ref:7}} ארגון טרור לא מוכר בשם \"חרכת אצחאב אל-ימין אל-אסלאמיה\" קיבל אחריות על הפיגועים הקודמים. {{ref:10}}\n\nבעקבות ההסלמה, המשטרה ההולנדית, בסיוע המשטרה הצבאית (Marechaussee), הקימה צוות לאומי מיוחד לתיאום האבטחה סביב מוסדות יהודיים ברחבי המדינה. {{ref:5}} {{ref:6}} מרווין פולק, דובר הקהילה היהודית המקומית, אמר כי הקהילה \"די המומה\" מהמקרה. {{ref:3}} המשטרה בודקת כעת את מעורבותם של שני הנערים, שנותרו במעצר, ואת הקשר האפשרי שלהם לגל הפיגועים האחרון. {{ref:4}}",
+    "category": "netherlands-israel",
+    "date": "2026-03-21T10:26:32.985113+00:00",
+    "tags": [
+      "אנטישמיות",
+      "המסטדה",
+      "הקהילה היהודית",
+      "אבטחה",
+      "טרור"
+    ],
+    "sources": [
+      {
+        "name": "wnl.tv",
+        "url": "https://wnl.tv/2026/03/20/jongens-aangehouden-in-gebied-extra-toezicht-om-joodse-instelling"
+      },
+      {
+        "name": "headliner.nl",
+        "url": "https://noord-holland.headliner.nl/item/aanhoudingen-na-verdachte-situatie-in-de-buurt-van-joodse-instelling-in-heemstede-nhnieuws-16212"
+      },
+      {
+        "name": "headliner.nl",
+        "url": "https://noord-holland.headliner.nl/item/schrik-zit-er-goed-in-bij-joodse-gemeente-na-verdachte-situatie-bij-synagoge-heemstede-nhnieuws-16225"
+      },
+      {
+        "name": "hartvannederland.nl",
+        "url": "https://www.hartvannederland.nl/112/crime/artikelen/noord-holland-heemstede-jongens-vast-verdachte-situatie-joodse-instelling"
+      },
+      {
+        "name": "beveiligingnieuws.nl",
+        "url": "https://beveiligingnieuws.nl/opschaling-na-explosies-bij-joodse-objecten/"
+      },
+      {
+        "name": "marechaussee.nl",
+        "url": "https://www.marechaussee.nl/actueel/nieuws/2026/03/17/marechaussee-betrokken-bij-maatregelen-na-incidenten-joodse-objecten"
+      },
+      {
+        "name": "headliner.nl",
+        "url": "https://rotterdam.headliner.nl/item/groep-die-aanvallen-op-joodse-instellingen-opeist-lijkt-niet-georganiseerd-rijnmond-114747"
+      },
+      {
+        "name": "nieuwwij.nl",
+        "url": "https://www.nieuwwij.nl/actueel/drie-aanslagen-raken-joden-in-nederland-en-belgie/"
+      }
+    ],
+    "aiDisclosure": "כתבה זו נוצרה באמצעות בינה מלאכותית בפיקוח עורך אנושי",
+    "publishingMode": "automated",
+    "isBreaking": false,
+    "isFeatured": false
   }
 ]
