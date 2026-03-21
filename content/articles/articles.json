@@ -1014,5 +1014,62 @@
     "publishingMode": "automated",
     "isBreaking": false,
     "isFeatured": false
+  },
+  {
+    "title": "הולנד: חשד לניסיון חיסול של מתנגד משטר איראני; הממשלה הגבירה אבטחה",
+    "slug": "schoonhoven-shooting-iranian-dissident-security-measures",
+    "summary": "עובד משטרה הולנדי ממוצא איראני, הידוע בביקורתו נגד המשטר בטהרן, נורה ונפצע קשה מחוץ לביתו. הרשויות חוקרות חשד לניסיון חיסול והגבירו את האבטחה סביב מתנגדי משטר אחרים במדינה.",
+    "body": "זעזוע בהולנד בעקבות ניסיון חיסול אפשרי של מתנגד משטר איראני. עובד משטרה הולנדי בן 36 ממוצא איראני נורה ונפצע באורח קשה ביום חמישי בבוקר מחוץ לביתו בעיר סכונהובן (Schoonhoven). {{ref:0}} הקורבן, שעבד במחלקת ה-IT של המשטרה ולא היה שוטר במדים {{ref:3}}, ידוע כמבקר קולני של המשטר האיראני ברשתות החברתיות. {{ref:4}} הרשויות בהולנד מתייחסות ברצינות לאפשרות שהירי קשור לפעילותו הפוליטית. {{ref:5}}\n\nשר המשפטים והביטחון, דויד ואן ויל, אישר כי משרדו נקט ב\"אמצעי אבטחה גלויים וסמויים\" כדי להגן על מתנגדי משטר איראנים נוספים החיים במדינה. {{ref:9}} \"איננו רוצים להפוך את המבצעים הפוטנציאליים לחכמים יותר ממה שהם כבר\", אמר ואן ויל. {{ref:9}} בקהילה האיראנית המקומית מורגשת חרדה רבה, וחבר הפרלמנט יוליסס אליאן, אף הוא ממוצא איראני, תיאר זאת כ\"צמרמורת מצמררת\". {{ref:14}}\n\nבתוך כך, המשטרה פתחה בחקירה רחבת היקף. {{ref:1}} נשק אותר במים סמוך לזירת האירוע ונשלח לבדיקה בליסטית. {{ref:6}} בנוסף, המשטרה מחפשת אחר רכב מילוט מדגם טויוטה יאריס. {{ref:7}} אין זו הפעם הראשונה שהולנד מתמודדת עם \"הזרוע הארוכה\" של טהרן; שירותי הביטחון ההולנדיים (AIVD) האשימו בעבר את איראן בחיסולם של שני מתנגדי משטר על אדמת הולנד ב-2015 וב-2017. {{ref:4}}",
+    "category": "politics",
+    "date": "2026-03-21T10:25:49.847951+00:00",
+    "tags": [
+      "הולנד",
+      "איראן",
+      "ניסיון חיסול",
+      "משטרה",
+      "מתנגדי משטר"
+    ],
+    "sources": [
+      {
+        "name": "politie.nl",
+        "url": "https://www.politie.nl/nieuws/2026/maart/19/06-schoonhoven-schietincident-schoonhoven-recherche-zoekt-getuigen.html"
+      },
+      {
+        "name": "crime-nieuws.nl",
+        "url": "https://crime-nieuws.nl/neergeschoten-iraanse-man-in-schoonhoven-blijkt-politiemedewerker-groot-onderzoek-gestart/"
+      },
+      {
+        "name": "headliner.nl",
+        "url": "https://www.headliner.nl/item/ministerie-treft-veiligheidsmaatregelen-om-iraanse-dissidenten-te-beschermen-nunl-899068"
+      },
+      {
+        "name": "headliner.nl",
+        "url": "https://zuidholland.headliner.nl/item/neergeschoten-man-in-schoonhoven-sprak-zich-uit-tegen-het-iraanse-regime-omroepwest-44296"
+      },
+      {
+        "name": "headliner.nl",
+        "url": "https://www.headliner.nl/item/extra-beveiliging-voor-iraanse-dissidenten-na-neerschieten-regime-criticus-schoonhoven-rtlnieuws-991142"
+      },
+      {
+        "name": "headliner.nl",
+        "url": "https://www.headliner.nl/item/politie-vindt-vuurwapen-in-onderzoek-naar-neergeschoten-man-van-iraanse-komaf-nunl-899075"
+      },
+      {
+        "name": "nieuws.nl",
+        "url": "https://nieuws.nl/algemeen/politie-vluchtauto-na-schietpartij-schoonhoven-richting-lopik"
+      },
+      {
+        "name": "nu.cw",
+        "url": "https://nu.cw/2026/03/20/ministerie-treft-veiligheidsmaatregelen-om-iraanse-dissidenten-te-beschermen/"
+      },
+      {
+        "name": "omroepbrabant.nl",
+        "url": "https://www.omroepbrabant.nl/nieuws/cc30d204-87df-341b-ba1d-3a7b6b05cd24/neergeschoten-iranier-in-schoonhoven-is-politiemedewerker"
+      }
+    ],
+    "aiDisclosure": "כתבה זו נוצרה באמצעות בינה מלאכותית בפיקוח עורך אנושי",
+    "publishingMode": "automated",
+    "isBreaking": false,
+    "isFeatured": false
   }
 ]
