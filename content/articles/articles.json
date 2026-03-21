@@ -912,5 +912,54 @@
     "publishingMode": "automated",
     "isBreaking": false,
     "isFeatured": false
+  },
+  {
+    "title": "הממשלה ההולנדית מתקפלת: הצעת החוק לביטול עדיפות לפליטים בדיור ציבורי נגנזה",
+    "slug": "dutch-government-withdraws-refugee-housing-priority-bill",
+    "summary": "הממשלה ההולנדית משכה הצעת חוק שנויה במחלוקת שהייתה אוסרת על מתן עדיפות לפליטים בתור לדיור סוציאלי. בינתיים, המצב הקיים נשאר על כנו ותוכנית חדשה מגובשת.",
+    "body": "הממשלה ההולנדית הודיעה על משיכת הצעת חוק שנויה במחלוקת, אשר ביקשה לאסור על עיריות לתת עדיפות לפליטים בעלי אישור שהייה (statushouders) בתור לדיור סוציאלי. {{ref:0}} שרת הבינוי והשיכון, אלינור בוקהולט-אוסאליבן, הודיעה כי במקום זאת, תגובש תוכנית חדשה ו\"ישימה\" שמטרתה להשוות את מעמדם של מבקשי הדיור השונים. {{ref:2}} ההחלטה לגנוז את הצעת החוק, שקודמה על ידי הממשלה הקודמת, מגיעה לאחר ביקורת חריפה, בעיקר מצד מועצת המדינה (Raad van State). {{ref:6}} המועצה, גוף הייעוץ המשפטי הגבוה ביותר לממשלה, קבעה כי החוק המוצע עומד בסתירה לזכות החוקתית לשוויון. {{ref:7}} לטענתה, ביטול כלי שנועד לפצות על אי-שוויון עבור קבוצה שאינה נמצאת בנקודת פתיחה שווה, מוביל בעצמו לטיפול לא שוויוני. השרה בוקהולט-אוסאליבן הדגישה כי העדיפות הניתנת לפליטים \"הופכת יותר ויותר לצוואר בקבוק\" במערכת, בשל רשימות ההמתנה הארוכות לדיור סוציאלי. {{ref:5}} התוכנית החדשה, שצפויה להיות מוכנה להתייעצות ציבורית לפני סוף השנה, תיושם רק לאחר שיימצאו פתרונות דיור חלופיים, כגון דיור מודולרי (\"flexwoningen\"). {{ref:10}} עד אז, המדיניות הנוכחית תישאר בתוקף, והעיריות יוכלו להמשיך להעניק עדיפות לפליטים כדי לעמוד במכסות השיכון שלהן. {{ref:9}}",
+    "category": "politics",
+    "date": "2026-03-21T10:25:22.676537+00:00",
+    "tags": [
+      "דיור סוציאלי",
+      "פליטים בהולנד",
+      "ממשלת הולנד",
+      "דיור ציבורי",
+      "חקיקה"
+    ],
+    "sources": [
+      {
+        "name": "nu.cw",
+        "url": "https://nu.cw/2026/03/20/kabinet-trekt-wet-die-voorrang-statushouders-verbiedt-in-en-maakt-nieuw-plan/"
+      },
+      {
+        "name": "rijksoverheid.nl",
+        "url": "https://www.rijksoverheid.nl/actueel/nieuws/2026/03/20/nieuw-wetsvoorstel-en-alternatieve-huisvesting-statushouders"
+      },
+      {
+        "name": "dagblad010.nl",
+        "url": "https://dagblad010.nl/landelijk/d66-minister-boekholt-schrapt-wet-die-voorrang-statushouders-stopt"
+      },
+      {
+        "name": "raadvanstate.nl",
+        "url": "https://www.raadvanstate.nl/adviezen/@151928/w04-25-00152/"
+      },
+      {
+        "name": "aedes.nl",
+        "url": "https://aedes.nl/politiek/raad-van-state-verbod-voorrang-statushouders-strijd-met-gelijke-behandeling"
+      },
+      {
+        "name": "vandaaginside.nl",
+        "url": "https://www.vandaaginside.nl/politiek/nederlandse-politiek/artikelen/kabinet-trekt-wetsvoorstel-in-om-voorrang-statushouders-in-sociale-huur-te"
+      },
+      {
+        "name": "westlanders.nu",
+        "url": "https://westlanders.nu/politiek/kabinet-flexwoningen-voor-statushouders-in-plaats-van-huurwoningen/"
+      }
+    ],
+    "aiDisclosure": "כתבה זו נוצרה באמצעות בינה מלאכותית בפיקוח עורך אנושי",
+    "publishingMode": "automated",
+    "isBreaking": false,
+    "isFeatured": false
   }
 ]
