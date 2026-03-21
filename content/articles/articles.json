@@ -1430,5 +1430,38 @@
     "publishingMode": "automated",
     "isBreaking": false,
     "isFeatured": false
+  },
+  {
+    "title": "ניסיון חיסול בהולנד: מתנגד משטר איראני, עובד משטרה, נורה ונלחם על חייו; החשד: \"הזרועות הארוכות\" של טהרן",
+    "slug": "iranian-dissident-shot-schoonhoven-regime-suspected",
+    "summary": "גבר הולנדי ממוצא איראני, מתנגד קולני למשטר בטהרן, נורה בעיר סכונהובן ונלחם על חייו. שר המשפטים ההולנדי התייחס לחשד למעורבות איראנית והודיע על הגברת האבטחה סביב מתנגדי משטר נוספים במדינה.",
+    "body": "גבר בן 36 ממוצא איראני, עובד המשטרה המקומית, נורה ביום חמישי בעיר סכונהובן (Schoonhoven) ונאבק על חייו בבית החולים.  הקורבן מוכר ברשתות החברתיות כמתנגד בולט למשטר האיראני, והמשטרה חוקרת ברצינות את האפשרות כי הרקע למעשה הוא פוליטי וקשור לפעילותו. שר המשפטים והביטחון ההולנדי, דויד ואן ויל, אישר כי הקורבן \"נלחם על חייו\" והתייחס לחשדות למעורבות טהרן.  לדבריו, למשטר האיראני יש \"זרועות ארוכות\", ברמיזה לחיסולים קודמים על אדמת הולנד שיוחסו לאיראן. בעקבות המקרה, הודיע השר כי ייושמו צעדי אבטחה נוספים כדי להגן טוב יותר על מתנגדי משטר איראנים המתגוררים במדינה. במקביל, המשטרה מנהלת מצוד אחר רכב המילוט ששימש את היורה, טויוטה יאריס משנת 2020 או חדשה יותר, עם לוחית רישוי הולנדית, חישוקי גלגלים ייחודיים וחלונות אחוריים כהים. הרכב נראה לאחרונה נמלט לכיוון העיירה לופיק (Lopik).",
+    "category": "politics",
+    "date": "2026-03-21T18:43:21.635493+00:00",
+    "tags": [
+      "איראן",
+      "הולנד",
+      "ביטחון",
+      "חיסול",
+      "סכונהובן"
+    ],
+    "sources": [
+      {
+        "name": "Slachtoffer schietpartij Schoonhoven vecht voor zijn leven, politie zoekt vluchtauto",
+        "url": "https://www.nu.nl/binnenland/6389976/slachtoffer-schietpartij-schoonhoven-vecht-voor-zijn-leven-politie-zoekt-vluchtauto.html"
+      },
+      {
+        "name": "Politie zoekt nog naar vluchtauto na neerschieten Iraanse man in Schoonhoven",
+        "url": "https://nos.nl/l/2607204"
+      },
+      {
+        "name": "Moordpoging Schoonhoven lijkt op werkwijze Iraans regime: 'Past in patroon'",
+        "url": "https://www.nu.nl/binnenland/6390016/moordpoging-schoonhoven-lijkt-op-werkwijze-iraans-regime-past-in-patroon.html"
+      }
+    ],
+    "aiDisclosure": "כתבה זו נוצרה באמצעות בינה מלאכותית בפיקוח עורך אנושי",
+    "publishingMode": "automated",
+    "isBreaking": false,
+    "isFeatured": false
   }
 ]
