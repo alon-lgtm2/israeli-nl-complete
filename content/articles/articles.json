@@ -1226,5 +1226,46 @@
     "publishingMode": "automated",
     "isBreaking": false,
     "isFeatured": false
+  },
+  {
+    "title": "ראש ממשלת הולנד נגד הימין הקיצוני: \"לגנות את האנטישמיות\"; מנהיגת FVD: \"רפלקס אנטי-דמוקרטי\"",
+    "slug": "jetten-fvd-antisemitism-clash-after-elections",
+    "summary": "ראש ממשלת הולנד, רוב יטן, קורא למפלגת הימין הקיצוני FVD לפעול נגד אנטישמיות בשורותיה בעקבות הצלחתה בבחירות המקומיות. מנהיגת המפלגה דוחה את הקריאה וטוענת כי מדובר ב\"רפלקס אנטי-דמוקרטי\".",
+    "body": "ראש ממשלת הולנד, רוב יטן, קרא ישירות למנהיגת מפלגת הימין הקיצוני \"פורום למען דמוקרטיה\" (FVD), לידוויי דה פוס, לפעול נגד גילויי אנטישמיות בשורות מפלגתה.  העימות מגיע לאחר שהמפלגה רשמה הישג משמעותי בבחירות המקומיות, וברשימותיה נבחרו מספר חברי מועצה בעלי עבר בארגונים ניאו-נאציים וקיצוניים.  \n\nבמסיבת עיתונאים שבועית, כשנשאל לאיזו מפלגה הוא מתכוון בהקשר של אנטישמיות בפוליטיקה, השיב יטן קצרות: \"פורום למען דמוקרטיה\".  הוא הדגיש כי \"הגיע הזמן לקבוע נורמה... כדי שנוכל לומר שכאן ועכשיו אין מקום לאנטישמיות, גם לא בפוליטיקה\".  קריאתו באה לאחר פגישה שקיים עם נציגי הקהילה היהודית בעקבות התקפות שאירעו לאחרונה. \n\nדה פוס, מצידה, הגיבה ב\"הפתעה גמורה\" וכינתה את דבריו של יטן \"רפלקס אנטי-דמוקרטי\" וניסיון לעשות דמוניזציה למפלגתה.   בעבר, כאשר נחשפו קשריהם של המועמדים לארגוני קיצון, היא ביטלה את הטענות וכינתה את מעשיהם \"מרד נעורים\". \n\nהצלחתה של FVD בבחירות, בהן זכתה בכמעט 300 מושבים במועצות המקומיות,  מעוררת דאגה בקרב פרשנים מהאפשרות של נורמליזציה של רעיונות ימין קיצוני ואנטישמיים.  שירות הביטחון ההולנדי (AIVD) זיהה בעבר את נרמול השיח הקיצוני כאיום על הסדר הדמוקרטי במדינה.",
+    "category": "politics",
+    "date": "2026-03-21T11:22:11.673297+00:00",
+    "tags": [
+      "פוליטיקה הולנדית",
+      "פורום למען דמוקרטיה",
+      "רוב יטן",
+      "אנטישמיות",
+      "ימין קיצוני"
+    ],
+    "sources": [
+      {
+        "name": "Kamerleden De Vos (FVD), Van Baarle (DENK) en Coenradie (JA21) gekozen voor Rotterdamse raad",
+        "url": "https://www.nrc.nl/nieuws/2026/03/20/kamerleden-de-vos-fvd-van-baarle-denk-en-coenradie-ja21-gekozen-voor-rotterdamse-raad-a4923576"
+      },
+      {
+        "name": "Premier Jetten vraagt De Vos om afstand te nemen van antisemitisme bij FVD",
+        "url": "https://nos.nl/l/2607110"
+      },
+      {
+        "name": "‘Wanneer wordt eens duidelijk waar de F in FvD echt voor staat? Fascistisch’",
+        "url": "https://www.volkskrant.nl/columns-opinie/lezersreacties-wanneer-wordt-eens-duidelijk-waar-de-f-in-fvd-echt-voor-staat-fascistisch~b1d559ac6/"
+      },
+      {
+        "name": "Premier Jetten hekelt antisemitisme binnen Forum voor Democratie",
+        "url": "https://www.nrc.nl/nieuws/2026/03/20/premier-jetten-hekelt-antisemitisme-binnen-forum-voor-democratie-a4923629"
+      },
+      {
+        "name": "De winst van FVD was boven verwachting, mede dankzij sommige opvallende overstappers",
+        "url": "https://www.nrc.nl/nieuws/2026/03/20/kiezersonderzoek-winst-fvd-opvallend-temidden-van-lage-opkomst-en-succes-lokale-partijen-a4923338"
+      }
+    ],
+    "aiDisclosure": "כתבה זו נוצרה באמצעות בינה מלאכותית בפיקוח עורך אנושי",
+    "publishingMode": "automated",
+    "isBreaking": false,
+    "isFeatured": false
   }
 ]
