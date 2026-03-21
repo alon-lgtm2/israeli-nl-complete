@@ -1296,5 +1296,38 @@
     "publishingMode": "automated",
     "isBreaking": false,
     "isFeatured": false
+  },
+  {
+    "title": "אלפים הפגינו באמסטרדם נגד גזענות: \"אף אדם אינו בלתי חוקי\"",
+    "slug": "amsterdam-demonstration-against-racism-2026",
+    "summary": "אלפי בני אדם יצאו בשבת לכיכר דאם באמסטרדם למחות נגד גזענות ופשיזם, במסגרת אירוע שנתי לציון היום הבינלאומי למאבק באפליה. המפגינים קראו \"אף אדם אינו בלתי חוקי\" על רקע נתונים המצביעים על התגברות תחושת האפליה במדינה.",
+    "body": "אלפי בני אדם התאספו ביום שבת בכיכר דאם באמסטרדם להפגנה השנתית נגד גזענות ופשיזם . האירוע, המאורגן על ידי קואליציית הארגונים \"ועדת 21 במרץ\", מציין את היום הבינלאומי למאבק באפליה גזעית, שנקבע על ידי האו\"ם לזכר טבח שארפוויל בדרום אפריקה ב-1960 . המפגינים קראו סיסמאות כמו \"אף אדם אינו בלתי חוקי\" ו\"להפוך את הגזענות לדבר פסול שוב\", במחאה על מה שהם מגדירים כהתגברות השיח הגזעני בחברה ההולנדית.\n\nההפגנה נערכת על רקע נתונים מדאיגים. לפי דוח של הלשכה המרכזית לסטטיסטיקה של הולנד (CBS) מסוף 2024, אחד מכל עשרה תושבים במדינה מעל גיל 15 (כ-1.6 מיליון איש) דיווח כי חווה אפליה בשנה החולפת , . הסיבה הנפוצה ביותר שהוזכרה הייתה גזע או צבע עור. הנתונים מצביעים על פגיעות גבוהה במיוחד בקרב דור שני למהגרים מרקע לא-אירופי, כאשר רבע מהם דיווחו על התנסות באפליה .\n\nבשנים האחרונות, ממשלת הולנד נקטה בצעדים להתמודדות עם התופעה, כולל מינוי מתאם לאומי למאבק באפליה וגזענות ב-2021 . עם זאת, המארגנים טוענים כי הבעיה עדיין מושרשת עמוק בחברה, וכי יש צורך בפעולה נחרצת יותר. ההפגנה מדגישה את הפער בין המדיניות המוצהרת לבין חווייתם של אזרחים רבים בשטח.",
+    "category": "politics",
+    "date": "2026-03-21T18:43:01.208506+00:00",
+    "tags": [
+      "גזענות",
+      "הפגנה",
+      "אמסטרדם",
+      "אפליה",
+      "זכויות אדם"
+    ],
+    "sources": [
+      {
+        "name": "Wekdienst 21/3: Demonstratie tegen racisme • Max Verstappen in actie buiten de F1",
+        "url": "https://nos.nl/l/2607180"
+      },
+      {
+        "name": "In Nederland wordt racisme nog altijd onder het tapijt geveegd",
+        "url": "https://www.volkskrant.nl/columns-opinie/opinie-in-nederland-wordt-racisme-nog-altijd-onder-het-tapijt-geveegd~bbb0179e/"
+      },
+      {
+        "name": "Duizenden bij demonstratie tegen racisme en fascisme in Amsterdam: ‘Geen mens is illegaal’",
+        "url": "https://www.ad.nl/binnenland/duizenden-bij-demonstratie-tegen-racisme-en-fascisme-in-amsterdam-geen-mens-is-illegaal~a1f24c2a/"
+      }
+    ],
+    "aiDisclosure": "כתבה זו נוצרה באמצעות בינה מלאכותית בפיקוח עורך אנושי",
+    "publishingMode": "automated",
+    "isBreaking": false,
+    "isFeatured": false
   }
 ]
