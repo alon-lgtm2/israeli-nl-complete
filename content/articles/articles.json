@@ -1181,5 +1181,50 @@
     "publishingMode": "automated",
     "isBreaking": false,
     "isFeatured": false
+  },
+  {
+    "title": "ממשלת הולנד חזרה בה: העדיפות לפליטים בדיור סוציאלי תימשך לעת עתה",
+    "slug": "dutch-government-withdraws-refugee-housing-priority-law",
+    "summary": "ממשלת הולנד משכה את הצעת החוק שאמורה הייתה לבטל את מתן העדיפות לפליטים בדיור סוציאלי. בינתיים, המצב הקיים יישאר על כנו בזמן שהממשלה מפתחת תוכנית חדשה המבוססת על פתרונות דיור חלופיים.",
+    "body": "ממשלת הולנד משכה רשמית את הצעת החוק השנויה במחלוקת, שאמורה הייתה לאסור על עיריות להעניק עדיפות לפליטים בעלי אישורי שהייה (statushouders) בתור לדיור סוציאלי . שרת הדיור, אלנור בוקהולט-אוסאליבן, הודיעה לפרלמנט כי החוק, שיזמה הממשלה הקודמת, יורד מסדר היום .\n\nמשמעות ההחלטה היא שהמצב הקיים נותר על כנו, ועיריות יוכלו להמשיך להקצות דירות בהקדם לפליטים כדי לאפשר את יציאתם ממרכזי קליטה. הצעת החוק המבוטלת ספגה ביקורת נוקבת ממועצת המדינה (Raad van State), הגוף המייעץ החשוב ביותר לממשלה, שקבעה בספטמבר האחרון כי החוק מפלה ומנוגד לחוקה . המועצה הזהירה כי החוק יעמיד את העיריות ב\"מצב קשה מאוד\", שכן הן מחויבות על פי חוק לשכן פליטים, אך הכלי המרכזי לעשות זאת היה נלקח מהן .\n\nבמקום החוק שבוטל, השרה בוקהולט-אוסאליבן פועלת לגיבוש תוכנית חדשה ו\"ישימה\", שמטרתה הסופית היא עדיין להשוות את תנאיהם של פליטים לאלו של מחפשי דיור אחרים. עם זאת, התוכנית החדשה מותנית ביצירה מוקדמת של פתרונות דיור חלופיים, כגון יחידות דיור גמישות וזמניות (flexwoningen) . \"מה שאנחנו לא רוצים זה שמרכזי מבקשי המקלט יעלו על גדותיהם, עלויות אדירות למתקני חירום, או שפליטים יצטרכו לחיות ברחובות\", הסבירה השרה . הממשלה מתכננת להציג הסכם עם העיריות בנושא עוד לפני הקיץ הקרוב .",
+    "category": "politics",
+    "date": "2026-03-21T11:21:26.926093+00:00",
+    "tags": [
+      "ממשלת הולנד",
+      "דיור סוציאלי",
+      "פליטים",
+      "חקיקה",
+      "דיור ציבורי"
+    ],
+    "sources": [
+      {
+        "name": "Kabinet trekt wet in die voorrang statushouders verbiedt en maakt nieuw plan",
+        "url": "https://www.nu.nl/politiek/6389883/kabinet-trekt-wet-in-die-voorrang-statushouders-verbiedt-en-maakt-nieuw-plan.html"
+      },
+      {
+        "name": "Statushouders houden voorlopig voorrang bij toewijzing sociale huurwoning",
+        "url": "https://www.ad.nl/politiek/statushouders-houden-voorlopig-voorrang-bij-toewijzing-sociale-huurwoning~a7bb6cb0/"
+      },
+      {
+        "name": "Kabinet trekt omstreden wetsvoorstel verbod voorrang statushouders in",
+        "url": "https://www.nrc.nl/nieuws/2026/03/20/kabinet-trekt-omstreden-wetsvoorstel-verbod-voorrang-statushouders-in-a4923581"
+      },
+      {
+        "name": "Kabinet wil nieuwe wet tegen automatische voorrang statushouder bij huurwoning",
+        "url": "https://nos.nl/l/2607083"
+      },
+      {
+        "name": "Kabinet trekt wet die voorrang statushouders verbiedt in en maakt nieuw plan",
+        "url": "https://www.nu.nl/politiek/6389883/kabinet-trekt-wet-die-voorrang-statushouders-verbiedt-in-en-maakt-nieuw-plan.html"
+      },
+      {
+        "name": "Kabinet-Jetten laat sta­tushouders tóch voorrang krijgen bij toewijzen sociale huurwoningen",
+        "url": "https://www.volkskrant.nl/politiek/statushouders-mogen-voorlopig-toch-voorrang-blijven-krijgen-op-nederlanders-bij-toewijzen-sociale-huurwoningen~b2731882/"
+      }
+    ],
+    "aiDisclosure": "כתבה זו נוצרה באמצעות בינה מלאכותית בפיקוח עורך אנושי",
+    "publishingMode": "automated",
+    "isBreaking": false,
+    "isFeatured": false
   }
 ]
